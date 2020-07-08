@@ -1,0 +1,15 @@
+{% assign lang = site.data.text[page.lang] %}
+<div class="section">
+  <div class="container">
+    <div class="w-layout-grid map-cta-grid">
+      <div>
+        <h3>{{ lang.map-cta }}</h3>
+        <a href="https://www.google.com/maps/dir//Lekka+23-25,+Athina+105+62/@37.9771511,23.7293994,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14a1bd3c6e6039f1:0x70e2572b5cabddae!2m2!1d23.7315881!2d37.9771469" target="_blank" class="button color-1 w-inline-block">
+          <div class="button-inside w-clearfix"><img src="/images/icon-navigation.svg" alt="" class="button-icon-left">
+            <div>
+              {% if page.lang == 'en' %}Directions{% else %}Οδηγειες{% endif %}</div>
+          </div>
+        </a>
+      </div><a href="https://www.google.com/maps/dir//Lekka+23-25,+Athina+105+62/@37.9771511,23.7293994,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14a1bd3c6e6039f1:0x70e2572b5cabddae!2m2!1d23.7315881!2d37.9771469" target="_blank" class="w-inline-block"><img src="/images/Map-Aevum.jpg" srcset="/images/Map-Aevum-p-500.jpeg 500w, /images/Map-Aevum-p-800.jpeg 800w, /images/Map-Aevum.jpg 835w" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 897px) 93vw, 835px" alt="" class="map-img-cta"></a></div>
+  </div>
+</div>

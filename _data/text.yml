@@ -1,0 +1,128 @@
+# Home
+en: 
+  test: ENGLISH TEST
+  nav-items: #url without /
+    - name: Store
+      url: store
+    - name: Diamond Grading
+      url: hrd
+    - name: Contact
+      url: contact
+  faq-title: Frequently Asked Questions
+  faq-items: 
+    - question: How much does shipping cost?
+      answer: It depends on where you live.
+    - question: Can you ship to where I live?
+      answer: At the moment, we can only ship within Greece if you are a retail customer. If you're a wholesaler, please visit our wholesale section (see footer).
+    - question: Can I reserve an item without paying?
+      answer: Yes! We will keep the item reserved for one business day. You can come by your store, see it in person and pay there if you'd like to proceed.
+  jewelry: Jewelry
+  jewelry-sub: Diamonds, Gems &
+  jewelry-desc: Choose your pick of rings, necklaces, earrings and more. You can also buy diamonds and gemstones.
+  shop-online: Shop Online
+  learn-more: Learn More
+  precious: Precious
+  metals: Metals
+  metals-desc: Drop by our store to purchase bars of gold and silver and get informed about your options.
+  Directions: Directions
+  cta-text: Visit us today to shop in person and get a FREE Diamond Grade Assessment
+  footer-links: 
+    - name: shipping
+      display: Shipping
+      url: /en/shipping
+    - name: pick-up
+      display: Self Pick-Up
+      url: /en/shipping#pick-up
+    - name: returns
+      display: Returns
+      url: /en/returns
+    - name: faq
+      display: Frequent Questions (FAQ)
+      url: /en/faq
+    - name: wholesale
+      display: Wholesale
+      url: /en/wholesale
+  bottom-footer-links:
+    - name: Privacy Policy
+      url: /en/privacy
+    - name: Terms & Conditons
+      url: /en/terms
+  comp-info: Company Information
+  useful-links: Useful Links
+  vat-name: VAT No.
+  comp-no-name: Company No.
+  address: Lekka 23-25<br>105 62 Athens<br> Greece
+  address-name: address
+  phone-number: (+30) 210 322 7148
+  opening-hours: <strong>Mon – Fri</strong>, 08:00 – 16:00<br><strong>Saturday</strong>, 10:00 – 15:00<br><strong>Sunday, CLOSED</strong>
+  opening-hours-name: Opening Hours
+  contact: Contact
+  contact-page-h: Contact & Visit
+  contact-page-sub: Why not come shop in person?
+  did-you-know-name: Did you know that...
+  did-you-know: You can reserve an item online, and then come pick it up yourself from our store and pay in cash? Give it a try by selecting "Pick Up" instead of Delivery when you check out!
+  map-cta: Visit us today to shop in person and get a FREE Diamond Grade Assessment
+
+gr: 
+  test: ΕΛΛΗΝΙΚΟ ΤΕΣΤ
+  nav-items: #url without "/" | They're capitalized, οπότε ΟΧΙ τόνοι 
+    - name: Καταστημα
+      url: store
+    - name: Αξιολογηση Διαμαντιων
+      url: hrd
+    - name: Επικοινωνια
+      url: contact
+  faq-title: Απαντήσεις σε συχνές Ερωτήσεις
+  faq-items: 
+    - question: Πόσο κοστίζουν τα μεταφορικά?
+      answer: It depends on where you live.
+    - question: Μπορείτε να στείλετε στην περιοχή μου?
+      answer: At the moment, we can only ship within Greece if you are a retail customer. If you're a wholesaler, please visit our wholesale section (see footer).
+    - question: Μπορώ να κάνω μια κράτηση χωρίς να πληρώσω?
+      answer: Yes! We will keep the item reserved for one business day. You can come by your store, see it in person and pay there if you'd like to proceed.
+  jewelry: Κοσμήματα
+  jewelry-sub: Διαμαντια, Πετραδια &
+  jewelry-desc: Choose your pick of rings, necklaces, earrings and more. You can also buy diamonds and gemstones.
+  shop-online: Ψωνιστε Online
+  learn-more: Πληροφοριες
+  precious: Πολυτιμα
+  metals: Μέταλλα
+  metals-desc: Drop by our store to purchase bars of gold and silver and get informed about your options.
+  Directions: Οδηγίες
+  cta-text: Visit us today to shop in person and get a FREE Diamond Grade Assessment
+  footer-links: 
+    - name: shipping
+      display: Αποστολη
+      url: /gr/shipping
+    - name: pick-up
+      display: Παραλαβη απο Καταστημα
+      url: /gr/shipping#pick-up
+    - name: returns
+      display: Επιστροφες
+      url: /gr/returns
+    - name: faq
+      display: Συχνες ερωτησεις (FAQ)
+      url: /gr/faq
+    - name: wholesale
+      display: Χονδρικη
+      url: /gr/wholesale
+  bottom-footer-links:
+    - name: Πολιτικη Απορρητου
+      url: /gr/privacy
+    - name: Οροι και Προϋποθεσεις
+      url: /gr/terms
+  comp-info: Στοιχεία Εταιρίας
+  useful-links: Χρήσιμες Σελίδες
+  vat-name: ΑΦΜ - 
+  comp-no-name: ΓΕΜΗ - 
+  address: Λέκκα 23-25<br>105 62 Αθήνα
+  address-name: Διεύθυνση
+  phone-number: 210 322 7148
+  opening-hours: <strong>Δευ – Παρ</strong>, 08:00 – 16:00<br><strong>Σαββατο</strong>, 10:00 – 15:00<br><strong> Κυριακη, ΚΛΕΙΣΤΑ</strong>
+  opening-hours-name: Ωράριο Λειτουργίας
+  contact: Επικοινωνία
+  contact-page-h: Επικοινωνία & Επίσκεψη
+  contact-page-sub: Γιατι δεν ερχεστε να ψωνισετε απο κοντα?
+  did-you-know-name: Ξερατε πως...
+  did-you-know: Μπορείτε να κάνετε κράτηση online και να έρθετε να παραλάβετε από το κατάστημα μας, πληρώνοντας με μετρητά? Δοκιμάστε το επιλέγοντας "<strong>Παραλαβή</strong>" αντί για "<strong>Αποστολή</strong>" κατά την ολοκλήρωση της παραγγελίας σας.
+  map-cta: Επισκεφτείτε μας σήμερα για μία ΔΩΡΕΑΝ εκτίμηση της αξίας του διαμαντιού σας!

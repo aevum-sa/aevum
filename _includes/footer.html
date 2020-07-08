@@ -1,0 +1,60 @@
+
+<footer class="section">
+  <div class="container">
+    <div class="footer-flex-container">
+      <div>
+        <p><strong>AEVUM Premium Trading S.A.</strong>‍
+          <br>
+          {{ lang.address }}
+        </p>
+      </div>
+      <div class="footer-flex-container no-padding">
+        <div class="footer-links vertical">
+          <h6 class="footer-heading">{{ lang.useful-links }}</h6>
+          <ul role="list" class="w-list-unstyled">
+            {% for footer-link in site.data.text.[page.lang].footer-links %}
+              <li><a href="{{ footer-link.url }}" class="footer-item">{{ footer-link.display }}</a></li>
+              {% endfor %}
+          </ul>
+        </div>
+        <div class="footer-links vertical">
+          <h6 class="footer-heading">{{ lang.contact }}</h6>
+          <ul role="list" class="w-list-unstyled">
+            <li>
+              <div class="footer-item">Email: <strong>contact@aevum-sa.com</strong></div>
+            </li>
+            <li>
+              <div class="footer-item">{% if page.lang == 'en' %}Landline{% else %}Σταθερο{% endif %}: {{ lang.phone-number }}</div>
+            </li>
+          </ul>
+          <h6 class="footer-heading">{{ lang.comp-info }}</h6>
+          <ul role="list" class="w-list-unstyled">
+            <li>
+              <div class="footer-item">{{ lang.vat-name }} EL801036881</div>
+            </li>
+            <li>
+              <div class="footer-item">{{ lang.comp-no-name }} 147527101000</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-wrap">
+      <div>
+        <a href="https://annafilou.com/" target="_blank" class="attribution-link w-inline-block">
+          <img src="/images/AN-logo.svg" width="15" alt="" class="webflow-logo-tiny">
+          <div class="paragraph-tiny">Designed &amp; built by <strong>Anna</strong></div>
+        </a>
+        <a href="https://www.ecwid.com/eu-privacy-policy" target="_blank" class="attribution-link w-inline-block">
+          <img src="/images/Ecwid_logo_minimal.svg" width="15" alt="" class="webflow-logo-tiny">
+          <div class="paragraph-tiny">Ecwid<strong> Secure E-Commerce</strong></div>
+        </a>
+      </div>
+      <div class="footer-links">
+        {% for bottom-footer-link in site.data.text.[page.lang].bottom-footer-links %}
+        <a href="{{ bottom-footer-link.url }}" target="_blank" class="footer-item">{{ bottom-footer-link.name }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</footer>
