@@ -20,10 +20,16 @@ Do you have high quality gold or silver that you don't want? Bring it to us and 
 <hr>
 <br> 
 
-[Visit our store](/{{ page.lang }}/contact) to learn more.
+#### [Visit our store](/{{ page.lang }}/contact) to learn more!
 
 {% else %}
 
 GREEK
 
 {% endif %}
+
+
+<div>
+  <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?32424241&data_platform=code" charset="utf-8"></script>
+  <script type="text/javascript"> xProductBrowser("categoriesPerRow=4","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-32424241", "defaultCategoryId=55389417");</script> -->
+</div>

@@ -1,7 +1,7 @@
 ---
-layout: text-page
+layout: default
 lang: en
 ref: metals
 title: Precious Metals
 ---
-{% include metals.md %}
+{% include metals.html %}

@@ -1,0 +1,19 @@
+/*Category ID:
+Metals: 55389417
+Jewelry: 
+*/
+
+/*Hides "add to bag" and price in the grid and product view
+of the metals category */
+.ec-store__product-page--c55389417 .details-product-purchase__controls,
+.ec-store__product-page--c55389417 .product-details__product-price {
+display: none;
+}
+
+/*Hides purchase controls in Metals category grid*/
+.ec-store__category-page--55389417 .grid-product .grid-product__price,
+.ec-store__category-page--55389417 .grid-product .grid-product__button,
+.ec-store__category-page--55389417 .grid-product .product-details__product-price,
+.ec-store__category-page--55389417 .grid-product .details-product-purchase__controls {
+  display: none;
+}

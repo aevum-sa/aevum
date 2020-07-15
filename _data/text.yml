@@ -4,6 +4,8 @@ en:
   nav-items: #url without /
     - name: Store
       url: store
+    - name: Metals
+      url: metals
     - name: Diamond Grading
       url: hrd
     - name: Contact
@@ -78,6 +80,8 @@ gr:
   nav-items: #url without "/" | They're capitalized, οπότε ΟΧΙ τόνοι 
     - name: Καταστημα
       url: store
+    - name: Μέταλλα
+      url: metals
     - name: Αξιολογηση Διαμαντιων
       url: hrd
     - name: Επικοινωνια

@@ -1,8 +1,8 @@
 ---
-layout: text-page
+layout: default
 lang: gr
 ref: metals
 title: Πολύτιμα Μέταλλα
 ---
 
-{% include metals.md %}
+{% include metals.html %}
