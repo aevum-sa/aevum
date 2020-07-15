@@ -25,7 +25,7 @@ en:
   metals: Metals
   metals-desc: Drop by our store to purchase bars of gold and silver and get informed about your options.
   Directions: Directions
-  cta-text: Visit us today to shop in person and get a FREE Diamond Grade Assessment
+  cta-text: Visit us today to shop in person and get a FREE Diamond or Jewelry Grade Assessment
   footer-links: 
     - name: shipping
       display: Shipping
@@ -52,7 +52,7 @@ en:
   vat-name: VAT No.
   comp-no-name: Company No.
   address: Lekka 23-25<br>105 62 Athens<br> Greece
-  address-name: address
+  address-name: Address
   phone-number: (+30) 210 322 7148
   opening-hours: <strong>Mon – Fri</strong>, 09:00 – 17:00<br><strong>Saturday</strong>, 10:00 – 14:00<br><strong>Sunday, CLOSED</strong>
   opening-hours-name: Opening Hours
@@ -60,9 +60,18 @@ en:
   contact-page-h: Contact & Visit
   contact-page-sub: Why not come shop in person?
   did-you-know-name: Did you know that...
-  did-you-know: You can reserve an item online, and then come pick it up yourself from our store and pay in cash? Give it a try by selecting "Pick Up" instead of Delivery when you check out!
+  did-you-know: You can reserve an item online, and then come pick it up yourself from our store and pay there? Give it a try by selecting "Pick Up" instead of Delivery when you check out!
   map-cta: Visit us today to shop in person and get a FREE Diamond Grade Assessment
-  hrd: 
+  hrd-title: Diamond Grading
+  hrd-intro: >-
+    Find out how much your diamond or piece of jewelry is worth.<br></p>
+    <p>Get a <strong>FREE initial assessment</strong> by our HRD-Certified Expert Diamond Graders.<br></p>
+    <p>Optinally get an <strong>internationally recognized certificate</strong> later to prove your diamond&#x27;s worth and characteristics.<br>
+  hrd-process:
+    step-1: Visit our store and request a free assessment. One of our experts will give you an estimation of your diamond's characteristics and worth.
+    step-2: If you'd like an official certificate, we will send your diamond to HRD Antwerp, an internationally recognized association.
+    step-3: This process will take about a week. Once your certificate is ready, we will give you a call and ask you to come over to pick it up, along with your diamond or piece of jewelry.
+    step-4: You now have an officially recognized document and a unique certification number that anyone can use to verify your diamond's characterics and worth online.
 
 gr: 
   test: ΕΛΛΗΝΙΚΟ ΤΕΣΤ
@@ -125,5 +134,15 @@ gr:
   contact-page-h: Επικοινωνία & Επίσκεψη
   contact-page-sub: Γιατι δεν ερχεστε να ψωνισετε απο κοντα?
   did-you-know-name: Ξερατε πως...
-  did-you-know: Μπορείτε να κάνετε κράτηση online και να έρθετε να παραλάβετε από το κατάστημα μας, πληρώνοντας με μετρητά? Δοκιμάστε το επιλέγοντας "<strong>Παραλαβή</strong>" αντί για "<strong>Αποστολή</strong>" κατά την ολοκλήρωση της παραγγελίας σας.
-  map-cta: Επισκεφτείτε μας σήμερα για μία ΔΩΡΕΑΝ εκτίμηση της αξίας του διαμαντιού σας!
+  did-you-know: Μπορείτε να κάνετε κράτηση online και να έρθετε να παραλάβετε από το κατάστημα μας, πληρώνοντας εκεί? Δοκιμάστε το επιλέγοντας "<strong>Παραλαβή</strong>" αντί για "<strong>Αποστολή</strong>" κατά την ολοκλήρωση της παραγγελίας σας.
+  map-cta: Επισκεφτείτε μας σήμερα για μία ΔΩΡΕΑΝ εκτίμηση της αξίας των κοσμημάτων ή των διαμαντιών σας!
+  hrd-title: Diamond Grading
+  hrd-intro: >-
+    Find out how much your diamond or piece of jewelry is worth.<br></p>
+    <p>Get a <strong>FREE initial assessment</strong> by our HRD-Certified Expert Diamond Graders.<br></p>
+    <p>Optinally get an <strong>internationally recognized certificate</strong> later to prove your diamond&#x27;s worth and characteristics.<br>
+  hrd-process:
+    step-1: Visit our store and request a free assessment. One of our experts will give you an estimation of your diamond's characteristics and worth.
+    step-2: If you'd like an official certificate, we will send your diamond to HRD Antwerp, an internationally recognized association.
+    step-3: This process will take about 2-4 weeks. Once your certificate is ready, we will give you a call and ask you to come over to pick it up, along with your diamond.
+    step-4: You now have an officially recognized document and a unique certification number that anyone can use to verify your diamond's characterics and worth online.
