@@ -54,7 +54,7 @@ en:
   address: Lekka 23-25<br>105 62 Athens<br> Greece
   address-name: address
   phone-number: (+30) 210 322 7148
-  opening-hours: <strong>Mon – Fri</strong>, 08:00 – 16:00<br><strong>Saturday</strong>, 10:00 – 15:00<br><strong>Sunday, CLOSED</strong>
+  opening-hours: <strong>Mon – Fri</strong>, 09:00 – 17:00<br><strong>Saturday</strong>, 10:00 – 14:00<br><strong>Sunday, CLOSED</strong>
   opening-hours-name: Opening Hours
   contact: Contact
   contact-page-h: Contact & Visit
@@ -62,6 +62,7 @@ en:
   did-you-know-name: Did you know that...
   did-you-know: You can reserve an item online, and then come pick it up yourself from our store and pay in cash? Give it a try by selecting "Pick Up" instead of Delivery when you check out!
   map-cta: Visit us today to shop in person and get a FREE Diamond Grade Assessment
+  hrd: 
 
 gr: 
   test: ΕΛΛΗΝΙΚΟ ΤΕΣΤ
@@ -118,7 +119,7 @@ gr:
   address: Λέκκα 23-25<br>105 62 Αθήνα
   address-name: Διεύθυνση
   phone-number: 210 322 7148
-  opening-hours: <strong>Δευ – Παρ</strong>, 08:00 – 16:00<br><strong>Σαββατο</strong>, 10:00 – 15:00<br><strong> Κυριακη, ΚΛΕΙΣΤΑ</strong>
+  opening-hours: <strong>Δευ – Παρ</strong>, 09:00 – 17:00<br><strong>Σαββατο</strong>, 10:00 – 14:00<br><strong> Κυριακη, ΚΛΕΙΣΤΑ</strong>
   opening-hours-name: Ωράριο Λειτουργίας
   contact: Επικοινωνία
   contact-page-h: Επικοινωνία & Επίσκεψη
