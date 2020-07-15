@@ -5,6 +5,21 @@ backend:
 # This line should *not* be indented
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 
-collections: 
-
+# logo_url: https://your-site.com/images/logo.svg
 # locale: 'el'
+site_url: https://your-site.com
+
+collections:
+  - name: Pages
+  - create: true
+  - extension: md
+  - format: frontmatter
+  - slug: "{{slug}}"
+  - folder: "pages"
+  - fields:
+    - label: "Page Title"
+      name: "title"
+      widget: "string"
+    - label: "Page Content"
+      name: "content"
+      widget: "markdown"
