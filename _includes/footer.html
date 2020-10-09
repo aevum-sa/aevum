@@ -15,7 +15,7 @@
             {% for footer-link in site.data.text.[page.lang].footer-links %}
               <li><a href="{{ footer-link.url }}" class="footer-item">{{ footer-link.display }}</a></li>
               {% endfor %}
-          </ul>
+          </ul> 
         </div>
         <div class="footer-links vertical">
           <h6 class="footer-heading">{{ lang.contact }}</h6>
@@ -25,6 +25,9 @@
             </li>
             <li>
               <div class="footer-item">{% if page.lang == 'en' %}Landline{% else %}Σταθερο{% endif %}: {{ lang.phone-number }}</div>
+            </li>
+            <li>
+              <div class="footer-item">{% if page.lang == 'en' %}Mobile{% else %}Κινητο{% endif %}: {{ lang.mobile-number }}</div>
             </li>
           </ul>
           <h6 class="footer-heading">{{ lang.comp-info }}</h6>
