@@ -80,7 +80,7 @@ gr:
   nav-items: #url without "/" | They're capitalized, οπότε ΟΧΙ τόνοι 
     - name: Καταστημα
       url: store
-    - name: Μέταλλα
+    - name: Μεταλλα
       url: metals
     - name: Αξιολογηση Διαμαντιων
       url: hrd
