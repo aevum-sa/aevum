@@ -57,7 +57,7 @@ en:
   address-name: Address
   phone-number: (+30) 210 322 7148
   mobile-number: (+30) 69 4888 8893
-  opening-hours: "<strong>Monday – Friday</strong>: 09:00 – 17:00<br><strong>Saturday</strong>: 10:00 – 14:00<br><strong>Sunday: CLOSED</strong>"
+  opening-hours: "<strong>Mon – Fri</strong>: 09:00 – 17:00<br><strong>Saturday</strong>: 10:00 – 14:00<br><strong>Sunday</strong>: Closed"
   opening-hours-name: Opening Hours
   contact: Contact
   contact-page-h: Contact & Visit
@@ -130,11 +130,11 @@ gr:
   useful-links: Χρήσιμες Σελίδες
   vat-name: ΑΦΜ - 
   comp-no-name: ΓΕΜΗ - 
-  address: Λάκκα 23-25<br>105 62 Αθήνα
+  address: Λέκκα 23-25<br>105 62 Αθήνα
   address-name: Διεύθυνση
   phone-number: 210 322 7148
   mobile-number: 69 4888 8893
-  opening-hours: "<strong>Δευτέρα – Παρασκευή</strong>: 09:00 – 17:00<br><strong>Σάββατο</strong>: 10:00 – 14:00<br><strong> Κυριακή: Κλειστά</strong>"
+  opening-hours: "<strong>Δευ – Παρ</strong>: 09:00 – 17:00<br><strong>Σάββατο</strong>: 10:00 – 14:00<br><strong>Κυριακή</strong>: Κλειστά"
   opening-hours-name: Ωράριο Λειτουργίας
   contact: Επικοινωνία
   contact-page-h: Επικοινωνία & Επίσκεψη
