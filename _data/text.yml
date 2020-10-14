@@ -47,7 +47,7 @@ en:
   bottom-footer-links:
     - name: Privacy Policy
       url: /en/privacy
-    - name: Terms & Conditons
+    - name: Terms & Conditions
       url: /en/terms
   comp-info: Company Information
   useful-links: Useful Links
@@ -69,7 +69,7 @@ en:
   hrd-intro: >-
     Find out how much your diamond or piece of jewelry is worth.<br></p>
     <p>Get a <strong>FREE initial assessment</strong> by our HRD-Certified Expert Diamond Graders.<br></p>
-    <p>Optinally get an <strong>internationally recognized certificate</strong> later to prove your diamond&#x27;s worth and characteristics.<br>
+    <p>Optionally get an <strong>internationally recognized certificate</strong> later to prove your diamond&#x27;s worth and characteristics.<br>
   hrd-process:
     step-1: Visit our store and request a free assessment. One of our experts will give you an estimation of your diamond's characteristics and worth.
     step-2: If you'd like an official certificate, we will send your diamond to HRD Antwerp, an internationally recognized association.
@@ -87,7 +87,7 @@ gr:
       url: hrd
     - name: Επικοινωνια
       url: contact
-  faq-title: Απαντήσεις σε συχνές Ερωτήσεις
+  faq-title: Απαντησεις σε συχνες Ερωτησεις
   faq-items: 
     - question: Πόσο κοστίζουν τα μεταφορικά?
       answer: It depends on where you live.
@@ -130,7 +130,7 @@ gr:
   useful-links: Χρήσιμες Σελίδες
   vat-name: ΑΦΜ - 
   comp-no-name: ΓΕΜΗ - 
-  address: Λέκκα 23-25<br>105 62 Αθήνα
+  address: Λεκκα 23-25<br>105 62 Αθηνα
   address-name: Διεύθυνση
   phone-number: 210 322 7148
   mobile-number: 69 4888 8893
@@ -138,9 +138,9 @@ gr:
   opening-hours-name: Ωράριο Λειτουργίας
   contact: Επικοινωνία
   contact-page-h: Επικοινωνία & Επίσκεψη
-  contact-page-sub: Γιατι δεν ερχεστε να ψωνισετε απο κοντα?
-  did-you-know-name: Ξερατε πως...
-  did-you-know: Μπορείτε να κάνετε κράτηση online και να έρθετε να παραλάβετε από το κατάστημα μας, πληρώνοντας εκεί? Δοκιμάστε το επιλέγοντας "<strong>Παραλαβή</strong>" αντί για "<strong>Αποστολή</strong>" κατά την ολοκλήρωση της παραγγελίας σας.
+  contact-page-sub: Γιατι δεν κανετε τις αγορες σας απο το καταστημα μας; Θα χαρουμε να σας εξυπηρετησουμε απο κοντα!
+  did-you-know-name: Γνωριζατε οτι...
+  did-you-know: Μπορείτε να κάνετε την κράτησή σας online και να παραλάβετε από το κατάστημα μας, πληρώνοντας εκεί; Δοκιμάστε το επιλέγοντας "<strong>Παραλαβή</strong>" αντί για "<strong>Αποστολή</strong>" κατά την ολοκλήρωση της παραγγελίας σας.
   map-cta: Επισκεφτείτε μας σήμερα για μία ΔΩΡΕΑΝ εκτίμηση της αξίας των κοσμημάτων ή των διαμαντιών σας!
   hrd-title: Diamond Grading
   hrd-intro: >-
