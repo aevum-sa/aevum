@@ -1291,7 +1291,7 @@ figcaption {
   font-size: 14px;
   line-height: 20px;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .full-heigh-image {
