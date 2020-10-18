@@ -1,7 +1,8 @@
 ---
 layout: text-page
 lang: en
-ref: privacy
+ref: privacy-policy
 title: Privacy Policy
+
 ---
 This is a sample privacy policy in English.
