@@ -1,0 +1,11 @@
+en: 
+  faq-title: Frequently Asked Questions
+  faq: 
+    - question: Question
+      answer: Answer
+    
+gr: 
+  faq-title: Συχνες Ερωτησεις
+  faq: 
+    - question: Ερώτηση
+      answer: Απάντηση
