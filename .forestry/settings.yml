@@ -8,8 +8,8 @@ sections:
   path: en
   label: English Pages
   create: all
-  match: "**/*.md"
-  new_doc_ext: ".md"
+  match: "*.md"
+  new_doc_ext: md
 - type: heading
   label: Policies
 - type: document
