@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: gr/privacy-policy.md
+  label: Privacy Policy - Greek
+  match: "**/*"
+- type: document
   path: en/privacy-policy.md
   label: Privacy Policy - English
   match: "**/*"
