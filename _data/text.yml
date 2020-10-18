@@ -46,7 +46,7 @@ en:
       url: /en/wholesale
   bottom-footer-links:
     - name: Privacy Policy
-      url: /en/privacy
+      url: /en/privacy-policy
     - name: Terms & Conditions
       url: /en/terms
   comp-info: Company Information
@@ -123,7 +123,7 @@ gr:
       url: /gr/wholesale
   bottom-footer-links:
     - name: Πολιτικη Απορρητου
-      url: /gr/privacy
+      url: /gr/privacy-policy
     - name: Οροι και Προϋποθεσεις
       url: /gr/terms
   comp-info: Στοιχεία Εταιρίας
