@@ -1,11 +1,11 @@
 en: 
   faq-title: Frequently Asked Questions
-  faq: 
+  faqs: 
     - question: Question
       answer: Answer
 gr: 
-  faq-title: Συχνες Ερωτησεις
-  faq: 
+  faq-title: Συχνές Ερωτήσεις
+  faqs: 
     - question: 1. Ο Φ.Π.Α συμπεριλαμβάνεται στις τιμές;
       answer: Όλες οι τιμές που παρουσιάζονται στη σελίδα μας άνευ Φ.Π.Α
     - question: 2. Πως θα γνωρίζω ότι η παραγγελία μου έχει καταχωρηθεί;
