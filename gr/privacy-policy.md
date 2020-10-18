@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: text-page
 lang: gr
 ref: privacy
 title: Privacy Policy
