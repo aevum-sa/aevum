@@ -1,7 +1,8 @@
 ---
 layout: text-page
 lang: gr
-ref: privacy
+ref: privacy-policy
 title: Privacy Policy
+
 ---
 Εδώ θα μπει η πολιτική απορρήτου στα ελληνικά.
