@@ -4,16 +4,20 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: en
+  label: English Pages
+  create: all
+  match: "**/*.md"
+  new_doc_ext: ".md"
 - type: heading
   label: Policies
 - type: document
   path: gr/privacy-policy.md
   label: Privacy Policy - Greek
-  match: "**/*"
 - type: document
   path: en/privacy-policy.md
   label: Privacy Policy - English
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
