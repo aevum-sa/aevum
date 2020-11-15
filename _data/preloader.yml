@@ -1,0 +1,9 @@
+en:
+  loading-messages:
+    - name: Preparing our collection
+    - name: This will only take a few moments
+
+el:
+  loading-messages:
+    - name: Preparing our collection
+    - name: This will only take a few moments

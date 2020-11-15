@@ -1,7 +1,9 @@
 ---
 layout: default
-lang: en
+title: Frequently Asked Questions
+description: 
 ref: faq
-title: FAQ
+lang: en
 ---
-{% include faq.html %}
+{% assign lang = site.data.faq[page.lang]%}
+{% include pages/faq.html %}

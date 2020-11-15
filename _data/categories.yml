@@ -1,0 +1,35 @@
+en: 
+  categories:
+    - name: Rings
+      url: # 
+      image: images/rings-02.jpeg
+    - name: Earrings
+      url: # 
+      image: images/Earings_4-01.jpeg
+    - name: Bracelets
+      url: # 
+      image: images/bracelets-w-01.jpeg
+    - name: Necklaces
+      url: # 
+      image: images/4.-Front-Page_s-Necklace---ShutterStock.png
+    - name: Crosses
+      url: # 
+      image: images/crosses.jpeg
+
+en: 
+  categories:
+    - name: Δαχτυλίδια
+      url: # 
+      image: images/rings-02.jpeg
+    - name: Σκουλαρίκια
+      url: # 
+      image: images/Earings_4-01.jpeg
+    - name: Βραχιόλια
+      url: # 
+      image: images/bracelets-w-01.jpeg
+    - name: Περιδέραια
+      url: # 
+      image: images/4.-Front-Page_s-Necklace---ShutterStock.png
+    - name: Σταυροί
+      url: # 
+      image: images/crosses.jpeg

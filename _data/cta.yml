@@ -1,0 +1,17 @@
+en:
+  text: Visit us to learn how much your diamond is worth with a <span class="h-highlight">FREE</span> Diamond Grade Assessment!
+  button-1: 
+    name: Get directions
+    url: https://www.google.com/maps/dir//Lekka+23-25,+Athina+105+62/@37.9771511,23.7293994,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14a1bd3c6e6039f1:0x70e2572b5cabddae!2m2!1d23.7315881!2d37.9771469
+  button-2: 
+    name: Learn more
+    url: grading
+
+en:
+  text: Επισκεφτείτε μας σήμερα για μία <span class="h-highlight">ΔΩΡΕΑΝ</span> εκτίμηση της αξίας των κοσμημάτων ή των διαμαντιών σας!
+  button-1: 
+    name: Οδηγίες
+    url: https://www.google.com/maps/dir//Lekka+23-25,+Athina+105+62/@37.9771511,23.7293994,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14a1bd3c6e6039f1:0x70e2572b5cabddae!2m2!1d23.7315881!2d37.9771469
+  button-2: 
+    name: Πληροφορίες
+    url: grading

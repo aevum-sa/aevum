@@ -1,8 +1,9 @@
 ---
 layout: default
-lang: en
-ref: contact
 title: Contact
+description: 
+ref: contact
+lang: en
 ---
-
-{% include contact.html %}
+{% assign lang = site.data.contact[page.lang]%}
+{% include pages/contact.html %}

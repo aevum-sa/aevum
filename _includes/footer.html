@@ -1,63 +1,87 @@
+  <div class="section footer">
+    <div class="container">
+      <div class="w-layout-grid footer-grid">
+        <div class="footer-column">
+          <div class="footer-title">{{ site.company-name[page.lang] }}</div>
+          
+          <a href="tel:+302103227148" class="link-w-icon w-inline-block"><img src="/images/Phone.svg" loading="lazy" alt="" class="link-icon link-icon--left">
+            <div class="footer-link">{{ site.phone }}</div>
+          </a>
 
-<footer class="section">
-  <div class="container">
-    <div class="footer-flex-container">
-      <div>
-        <p><strong>AEVUM Premium Trading S.A.</strong>‍
-          <br>
-          {{ lang.address }}
-        </p>
-      </div>
-      <div class="footer-flex-container no-padding">
-        <div class="footer-links vertical">
-          <h6 class="footer-heading">{{ lang.useful-links }}</h6>
-          <ul role="list" class="w-list-unstyled">
-            {% for footer-link in site.data.text.[page.lang].footer-links %}
-              <li><a href="{{ footer-link.url }}" class="footer-item">{{ footer-link.display }}</a></li>
-              {% endfor %}
-          </ul> 
+          <a href="https://www.google.com/maps/dir//Lekka+23-25,+Athina+105+62/@37.9771511,23.7293994,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14a1bd3c6e6039f1:0x70e2572b5cabddae!2m2!1d23.7315881!2d37.9771469" target="_blank" class="link-w-icon w-inline-block"><img src="/images/Map-Pin.svg" loading="lazy" alt="" class="link-icon link-icon--left">
+            <div class="footer-link">{{ site.address[page.lang] }}</div>
+          </a>
+
+          <div class="link-w-icon"><img src="/images/Clock.svg" loading="lazy" alt="" class="link-icon link-icon--left">
+            <div class="footer-link no-hover">
+              {{ site.opening-hours[page.lang] }}
+            </div>
+          </div>
+
+
         </div>
-        <div class="footer-links vertical">
-          <h6 class="footer-heading">{{ lang.contact }}</h6>
-          <ul role="list" class="w-list-unstyled">
-            <li>
-              <div class="footer-item">Email: <strong>contact@aevum-sa.com</strong></div>
-            </li>
-            <li>
-              <div class="footer-item">{% if page.lang == 'en' %}Landline{% else %}Σταθερο{% endif %}: {{ lang.phone-number }}</div>
-            </li>
-            <li>
-              <div class="footer-item">{% if page.lang == 'en' %}Mobile{% else %}Κινητο{% endif %}: {{ lang.mobile-number }}</div>
-            </li>
-          </ul>
-          <h6 class="footer-heading">{{ lang.comp-info }}</h6>
-          <ul role="list" class="w-list-unstyled">
-            <li>
-              <div class="footer-item">{{ lang.vat-name }} EL801036881</div>
-            </li>
-            <li>
-              <div class="footer-item">{{ lang.comp-no-name }} 147527101000</div>
-            </li>
-          </ul>
+        <div class="footer-column">
+          <div class="footer-half-column">
+
+            <div class="footer-title">{{ site.data.footer[page.lang].col-2-1-title }}</div>
+
+            {% for link in site.data.footer[page.lang].col-2-1-links %}
+            <a href="{{ link.url }}" class="footer-link">{{ link.name }}</a>
+            {% endfor %}
+
+          </div>
+          <div>
+            <div class="footer-title">{{ site.data.footer[page.lang].col-2-2-title }}</div>
+
+            {% for link in site.data.footer[page.lang].col-2-2-links %}
+            <a href="{{ link.url }}" class="link-w-icon w-inline-block"><img src="/{{ link.image }}" loading="lazy" alt="" class="link-icon link-icon--left">
+              <div class="footer-link">{{ link.name }}</div>
+            </a>
+            {% endfor %}
+
+          </div>
+        </div>
+        <div class="footer-column">
+          <div class="footer-title">{{ site.data.footer[page.lang].col-3-title }}</div>
+
+          {% for link in site.data.footer[page.lang].col-3-links %}
+          <a href="/{{ link.url }}" class="footer-link">{{ link.name }}</a>
+          {% endfor %}
+
+        </div>
+        <div class="footer-column">
+          <div class="footer-title">{{ site.data.footer[page.lang].newsletter.title }}</div>
+          <div class="label">{{ site.data.footer[page.lang].newsletter.label }}</div>
+          <div class="newsletter-form-block w-form">
+            <form id="wf-form-Newsletter-Footer" name="wf-form-Newsletter-Footer" data-name="Newsletter Footer" class="form"><input type="email" class="text-field w-input" maxlength="256" name="Newsletter" data-name="Newsletter" placeholder="{{ site.data.footer[page.lang].newsletter.placeholder }}" id="Newsletter" required=""><input type="submit" value="&gt;" data-wait="↻" data-netlify="true" class="submit-button w-button"></form>
+            <div class="success-message w-form-done">
+              <div>{{ site.data.footer[page.lang].newsletter.success-message }}</div>
+            </div>
+            <div class="w-form-fail">
+              <div> 
+                {{ site.data.footer[page.lang].newsletter.error-message }}
+              </div>
+            </div>
+          </div>
+          <p class="paragraph--detail">
+          {{ site.data.footer[page.lang].newsletter.disclaimer }}
+          </p>
         </div>
       </div>
-    </div>
-    <div class="footer-bottom-wrap">
-      <div>
-        <a href="https://annafilou.com/" target="_blank" class="attribution-link w-inline-block">
-          <img src="/images/AN-logo.svg" width="15" alt="" class="webflow-logo-tiny">
-          <div class="paragraph-tiny">Designed &amp; built by <strong>Anna</strong></div>
-        </a>
-        <a href="https://www.ecwid.com/eu-privacy-policy" target="_blank" class="attribution-link w-inline-block">
-          <img src="/images/Ecwid_logo_minimal.svg" width="15" alt="" class="webflow-logo-tiny">
-          <div class="paragraph-tiny">Ecwid<strong> Secure E-Commerce</strong></div>
-        </a>
-      </div>
-      <div class="footer-links">
-        {% for bottom-footer-link in site.data.text.[page.lang].bottom-footer-links %}
-        <a href="{{ bottom-footer-link.url }}" class="footer-item">{{ bottom-footer-link.name }}</a>
-        {% endfor %}
+      <div class="footer-bottom line-blank">
+        <div class="footer-wrapper">
+          <div><img src="/images/visa.png" loading="lazy" alt="" class="payment-method-image"><img src="/images/mastercard.png" loading="lazy" alt="" class="payment-method-image"><img src="/images/paypal.png" loading="lazy" alt="" class="payment-method-image"></div>
+        </div>
+        <div class="footer-wrapper">
+          <div>
+            <a href="https://annafilou.com/" target="_blank" class="attribution-link w-inline-block"><img src="/images/AN-logo.svg" width="15" alt="" class="webflow-logo-tiny">
+              <div class="paragraph--detail">designed &amp; Built by <strong>anna</strong></div>
+            </a>
+            <a href="https://www.ecwid.com/eu-privacy-policy" target="_blank" class="attribution-link w-inline-block"><img src="/images/Ecwid_logo_minimal.svg" width="15" alt="" class="webflow-logo-tiny">
+              <div class="paragraph--detail">Ecwid<strong> Secure E-Commerce</strong></div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</footer>

@@ -1,15 +1,89 @@
   <meta charset="utf-8">
-  <title>💎 Aevum | {{ page.title }} </title>
-  <meta content="Aevum Diamonds, Gems, Jewelry &amp; Precious Metals 💎" property="og:title">
-  <meta content="Aevum Diamonds, Gems, Jewelry &amp; Precious Metals 💎" property="twitter:title">
+  <title>{{ site.title }} | {{ page.title }}</title>
+  <meta content="{{ page.description }}" name="description">
+  <meta content="{{ site.title }} | {{ page.title }}" property="og:title">
+  <meta content="{{ page.description }}" property="og:description">
+  <meta content="{{ site.title }} | {{ page.title }}" property="twitter:title">
+  <meta content="{{ page.description }}" property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="/css/normalize.css" rel="stylesheet" type="text/css">
   <link href="/css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="/css/aevum-sa.webflow.css" rel="stylesheet" type="text/css">
-  <link href="/css/ecwid.css" rel="stylesheet" type="text/css">
+  <link href="/css/aevum-new.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Comfortaa:regular,500,600,700:greek,latin","Inter:regular,500,600,700:greek,latin"]  }});</script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Manrope:300,regular,500,600,700:greek,latin"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="/images/webclip.png" rel="apple-touch-icon">
+  <link href="/images/favicon.jpg" rel="shortcut icon" type="image/x-icon">
+  <link href="/images/webclip.jpg" rel="apple-touch-icon">
+  <style>
+.blur {  
+  backdrop-filter: blur(16px);
+}
+.nav-menu-center.blur {  
+  backdrop-filter: blur(16px);
+}
+.navbar.blur {  
+  backdrop-filter: blur(16px);
+}
+/* START SCROLL CIRCLE (Needs code in BODY too)*/
+.progress-wrap {
+  opacity: 0;
+  }
+.progress-wrap.active-progress {
+	opacity: 1;
+	transform: translateY(0);
+}
+.progress-wrap::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 1;
+}
+.progress-wrap:hover::after {
+	opacity: 0;
+}
+.progress-wrap::before {
+	position: absolute;	
+	opacity: 0;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 2;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.progress-wrap:hover::before {
+	opacity: 1;
+}
+.progress-wrap svg path { 
+	fill: none; 
+}
+.progress-wrap svg.progress-circle path {
+	stroke: black;
+	stroke-width: 4;
+	box-sizing:border-box;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+/* END SCROLL CIRCLE (Needs code in BODY too)*/
+
+
+/* Homepage wholesale section border */  
+.image-bg--wholesale {
+  border-color: #d6c7a5;
+  border-width:5px;  
+  border-style:outset;
+  }
+
+</style>

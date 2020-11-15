@@ -1,0 +1,21 @@
+en: 
+  contact-form:
+    title: Contact Form
+    name: YOUR NAME (REQUIRED)
+    email: YOU EMAIL ADDRESS (REQUIRED)
+    phone: PHONE NUMBER (OPTIONAL)
+    message: YOUR MESSAGE (REQUIRED)
+    button-text: Submit
+    success: <strong>We got your message</strong> and will get back to you within a business day.
+    error: <strong>Something went wrong!</strong> Please check your internet connection. You can also send us an email or call us instead. We apologize for the potential inconvenience.
+
+el: 
+  contact-form:
+    title: Φόρμα επικοινωνίας
+    name: Το όνομά σας (απαιτείται)
+    email: Η διεύθυνση e-mail σας (απαιτείται)
+    phone: Ο αριθμός τηλεφώνου σας (προαιρετικό)
+    message: Το μήνυμά σας (απαιτείται)
+    button-text: Αποστολή
+    success: <strong> λάβαμε το μήνυμα σας</strong> και θα σας απαντήσουμε μέσα σε μία εργάσιμη μέρα.
+    error: <strong>Το μήνυμα σας δεν στάλθηκε!</strong> Παρακαλούμε ελέγξτε την σύνδεση σας στο ίντερνετ. Εναλλακτικά μπορείτε να μας καλέσετε. Ζητάμε συγνώμη για τυχόν κόπο.

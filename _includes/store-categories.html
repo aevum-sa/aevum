@@ -1,0 +1,15 @@
+<div class="section">
+    <div class="container">
+      <div class="flex-container-categories">
+
+		{% for category in site.data.categories.[page.lang].categories %}
+			<div class="store-category">
+			<a href="{{ category.url }}" class="category-image w-inline-block"><img src="/{{ category.image }}" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 991px) 28vw, 18vw" alt="" class="cover-image"></a>
+			<h3 class="category-title">{{ category.name }}</h3>
+			<a href="{{ category.url }}" class="see-more-link">See more →</a>
+			</div>
+		{% endfor %}
+
+      </div>
+    </div>
+  </div>

@@ -1,7 +1,9 @@
 ---
 layout: default
-lang: en
+title: Diamond Jewelry
+description: 
 ref: index
-title: Diamonds, Jewelry, Precious Metals
+lang: en
 ---
-{% include index.html %}
+{% assign lang = site.data.home[page.lang] %}
+{% include pages/index.html %}

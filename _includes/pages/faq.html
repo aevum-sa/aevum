@@ -1,0 +1,25 @@
+  <div class="section">
+    <div class="container">
+      <div class="faq-container">
+        <h1 class="heading--page">{{ site.data.faq.[page.lang].title }}</h1>
+
+        <!-- FAQ BLOCKS start -->
+        {% for faq in site.data.faq.[page.lang].faqs %}
+        <div class="faq-wrap">
+          <div class="faq-question">
+            <div class="faq-plus-wrap">
+              <div class="faq-plus-l"></div>
+              <div class="faq-plus"></div>
+            </div>
+            <div class="faq-q-text">{{ faq.question }}</div>
+          </div>
+          <div class="faq-answer">
+            <p>{{ faq.answer }}</p>
+          </div>
+        </div>
+        {% endfor %}
+        <!-- FAQ BLOCKS end -->
+
+      </div>
+    </div>
+  </div>
