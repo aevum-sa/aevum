@@ -29,6 +29,7 @@
           </div>
 
           <nav class="dropdown-list w-dropdown-list">
+            
             <a href="/{{page.lang}}/store" class="dropdown-link w-dropdown-link">SEE ALL</a>
             
             {% for dropdown-item in site.data.navabr.[page.lang].dropdown-items.store %}
@@ -49,6 +50,7 @@
             {% for dropdown-item in site.data.navabr.[page.lang].dropdown-items.wholesale %}
             <a href="/{{page.lang}}/{{dropdown-item.url}}" class="dropdown-link w-dropdown-link">{{dropdown-item.name}}</a>
             {% endfor %}
+
           </nav>
         </div>
 
