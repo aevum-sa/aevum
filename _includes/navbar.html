@@ -29,10 +29,12 @@
           </div>
 
           <nav class="dropdown-list w-dropdown-list">
-            <a href="/ {{ page.lang }} /store" class="dropdown-link w-dropdown-link">SEE ALL</a>
-            {% for dropdown-item in site.data.navabr.[page.lang].nav-items.name.dropdown-items %}
+            <a href="/{{page.lang}}/store" class="dropdown-link w-dropdown-link">SEE ALL</a>
+            
+            {% for dropdown-item in site.data.navabr.[page.lang].nav-items.dropdown-items %}
               <a href="#" class="dropdown-link w-dropdown-link">{{ dropdown-item.name }}</a>
             {% endfor %}
+          
           </nav>
         </div>
 
@@ -50,14 +52,15 @@
           </nav>
         </div>
 
-        <a href="/{{ page.lang }}/grading" class="nav-link w-nav-link">diamond grading</a>
-        <a href="{% post_url 2020-11-15-Diamond_4Cs %}" class="nav-link w-nav-link">Diamond 4 C<span class="lowercase-span">s</span></a>
+        <a href="/{{page.lang}}/grading" class="nav-link w-nav-link">diamond grading</a>
+        <a href="{%post_url 2020-11-15-Diamond_4Cs%}" class="nav-link w-nav-link">Diamond 4 C<span class="lowercase-span">s</span></a>
 
         <!-- NAVIGATION CENTER LINKS - Start -->
 
         <a href="{% if page.lang == 'en' %}/el/{{ page.ref }}{% else %}/en/{{ page.ref }}{% endif %}" class="nav-icon-link hidden-desktop w-inline-block">
           <div class="nav-icon text-icon"> {{ site.data.navbar.[page.lang].lang-switcher }}/div>
         </a>
+
         <a href="#" class="nav-icon-link hidden-desktop w-inline-block"><img src="/images/icon-user.svg" loading="lazy" alt="" class="nav-icon"></a>
       </nav>
       <div class="navigation-side-plain right">
