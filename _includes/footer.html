@@ -45,7 +45,7 @@
           <div class="footer-title">{{ site.data.footer[page.lang].col-3-title }}</div>
 
           {% for link in site.data.footer[page.lang].col-3-links %}
-          <a href="/{{ link.url }}" class="footer-link">{{ link.name }}</a>
+          <a href="{{page.lang}}/{{ link.url }}" class="footer-link">{{ link.name }}</a>
           {% endfor %}
 
         </div>
