@@ -32,7 +32,7 @@
 
             <a href="/{{page.lang}}/store" class="dropdown-link w-dropdown-link">SEE ALL</a>
             
-            {% for dropdown-item in site.data.navabr.[page.lang].dropdown-items-store %}
+            {% for dropdown-item in site.data.navbar.[page.lang].dropdown-items-store %}
               <a href="/{{page.lang}}/{{dropdown-item.url}}" class="dropdown-link w-dropdown-link">{{dropdown-item.name}}</a>
             {% endfor %}
           
@@ -47,7 +47,8 @@
           </div>
 
           <nav class="dropdown-list w-dropdown-list">
-            {% for dropdown-item in site.data.navabr.[page.lang].dropdown-items-wholesale %}
+            
+            {% for dropdown-item in site.data.navbar.[page.lang].dropdown-items-wholesale %}
             <a href="/{{page.lang}}/{{dropdown-item.url}}" class="dropdown-link w-dropdown-link">{{dropdown-item.name}}</a>
             {% endfor %}
 
