@@ -15356,8 +15356,8 @@
 		}
 		return h.ready = h.design = h.preview = function() {
 			! function() {
-				// removed https://webflow.com/api/v1/form/
-				a = t("html").attr("data-wf-site"), o = "" + a, f && o.indexOf("https://webflow.com") >= 0 && (o = o.replace("https://webflow.com", "http://formdata.webflow.com"));
+				// removed https://webflow.com/api/v1/form/ & http://formdata.webflow.com
+				a = t("html").attr("data-wf-site"), o = "" + a, f && o.indexOf("https://webflow.com") >= 0 && (o = o.replace("https://webflow.com", ""));
 				if (l = "".concat(o, "/signFile"), !(r = t(p + " form")).length) return;
 				r.each(_)
             }
