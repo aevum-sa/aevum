@@ -52,20 +52,23 @@
         <div class="footer-column">
           <div class="footer-title">{{ site.data.footer[page.lang].newsletter.title }}</div>
           <div class="label">{{ site.data.footer[page.lang].newsletter.label }}</div>
+            
           <div class="newsletter-form-block w-form">
             <form class="form" data-name="Newsletter Footer" id="Newsletter-Footer" name="Newsletter-Footer" netlify>
-              <input class="text-field w-input" data-name="Newsletter" id="Newsletter" maxlength="256" name="Newsletter" placeholder="{{ site.data.footer[page.lang].newsletter.placeholder }}" required="" type="email"><input class="submit-button w-button" data-wait="↻" type="submit" value="&gt;">
+              <input class="text-field w-input" data-name="Newsletter" id="Newsletter" maxlength="256" name="Newsletter" placeholder="{{ site.data.footer[page.lang].newsletter.placeholder }}" required="" type="email">
+              <input class="submit-button w-button" data-wait="↻" type="submit" value="&gt;">
             </form>
             
-            <div class="success-message w-form-done">
+            <!-- <div class="success-message w-form-done">
               <div>{{ site.data.footer[page.lang].newsletter.success-message }}</div>
             </div>
             <div class="w-form-fail">
               <div> 
                 {{ site.data.footer[page.lang].newsletter.error-message }}
               </div>
-            </div>
+            </div> -->
           </div>
+
           <p class="paragraph--detail">
           {{ site.data.footer[page.lang].newsletter.disclaimer }}
           </p>
