@@ -31,8 +31,8 @@
           <nav class="dropdown-list w-dropdown-list">
             <a href="/{{page.lang}}/store" class="dropdown-link w-dropdown-link">SEE ALL</a>
             
-            {% for dropdown-item in site.data.navabr.[page.lang].nav-items.dropdown-items %}
-              <a href="#" class="dropdown-link w-dropdown-link">{{ dropdown-item.name }}</a>
+            {% for dropdown-item in site.data.navabr.[page.lang].dropdown-items.store %}
+              <a href="/{{page.lang}}/{{dropdown-item.url}}" class="dropdown-link w-dropdown-link">{{dropdown-item.name}}</a>
             {% endfor %}
           
           </nav>
@@ -46,9 +46,9 @@
           </div>
 
           <nav class="dropdown-list w-dropdown-list">
-            <a href="/wholesale-page.html" class="dropdown-link w-dropdown-link">Diamonds</a>
-            <a href="#" class="dropdown-link w-dropdown-link">Jewelry</a>
-            <a href="#" class="dropdown-link w-dropdown-link">Precious Metals</a>
+            {% for dropdown-item in site.data.navabr.[page.lang].dropdown-items.wholesale %}
+            <a href="/{{page.lang}}/{{dropdown-item.url}}" class="dropdown-link w-dropdown-link">{{dropdown-item.name}}</a>
+            {% endfor %}
           </nav>
         </div>
 

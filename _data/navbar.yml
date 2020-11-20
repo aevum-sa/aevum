@@ -2,28 +2,29 @@ en:
   lang-switcher: EN/EL
   nav-items: #url without /
     - name: Store
-      dropdown-items:
-        - page: Rings
-          url: 
-        - page: Earrings
-          url: 
-        - page: Bracelets
-          url: 
-        - page: Necklaces
-          url: 
-        - page: Crosses
-          url: 
     - name: Wholesale
-      dropdown-items:
-        - page: Jewelry
-          url: wholesale/jewelry
-        - page: Gemstones
-          url: wholesale/gemstones
-        - page: Precious Metals
-          url: wholesale/metals
     - name: Diamond Grading
       url: grading
     - name: Diamond Characteristics
       url: "{% posturl 2020-11-15-Diamond_Characteristics %}"
+  dropdown-items:
+    store:
+      - name: Rings
+        url: 
+      - name: Earrings
+        url: 
+      - name: Bracelets
+        url: 
+      - name: Necklaces
+        url: 
+      - name: Crosses
+        url: 
+    wholesale: 
+      - name: Jewelry
+        url: wholesale/jewelry
+      - name: Gemstones
+        url: wholesale/gemstones
+      - name: Precious Metals
+        url: wholesale/metals
 el: 
   nav-items:
