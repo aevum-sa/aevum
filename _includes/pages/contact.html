@@ -1,53 +1,68 @@
- {% assign lang = site.data.text[page.lang] %}
-  <div class="section section--top">
-    <div class="container">
-      <div class="header-image-container"><img src="/images/contact-gold-01.jpg" loading="lazy" alt="" class="cover-image"></div>
-    </div>
+{% assign lang = site.data.text[page.lang] %}
+ 
+<div class="section section--top">
+  <div class="container">
+    <div class="header-image-container"><img src="/images/contact-gold-01.jpg" loading="lazy" alt="" class="cover-image"></div>
   </div>
-  <div class="section">
-    <div class="container">
-      <div class="w-layout-grid contact-grid">
-        <div id="w-node-76412982563e-143234b3" class="text-wrap">
-          <h1>{{ page.title }}</h1>
-          <div>
-            <a href="tel:+302103227148" class="link-w-icon w-inline-block"><img src="/images/Phone.svg" loading="lazy" alt="" class="link-icon link-icon--left">
-              <div class="footer-link">{{ site.phone }}</div>
-            </a>
-            <a href="mailto:contact@aevum-sa.com" class="link-w-icon w-inline-block"><img src="/images/Mail.svg" loading="lazy" alt="" class="link-icon link-icon--left">
-              <div class="footer-link">{{ site.email }}</div>
-            </a>
-            <a href="https://www.google.com/maps/dir//Lekka+23-25,+Athina+105+62/@37.9771511,23.7293994,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14a1bd3c6e6039f1:0x70e2572b5cabddae!2m2!1d23.7315881!2d37.9771469" target="_blank" class="link-w-icon w-inline-block"><img src="/images/Map-Pin.svg" loading="lazy" alt="" class="link-icon link-icon--left">
-              <div class="footer-link">{{ site.address.[page.lang] }}</div>
-            </a>
-            <div class="link-w-icon"><img src="/images/Clock.svg" loading="lazy" alt="" class="link-icon link-icon--left">
-              <div class="footer-link no-hover">{{ site.opening-hours.[page.lang] }}</div>
-            </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="w-layout-grid contact-grid">
+      <div id="w-node-76412982563e-143234b3" class="text-wrap">
+        <h1>{{ page.title }}</h1>
+        <div>
+          <a href="tel:+302103227148" class="link-w-icon w-inline-block"><img src="/images/Phone.svg" loading="lazy" alt="" class="link-icon link-icon--left">
+            <div class="footer-link">{{ site.phone }}</div>
+          </a>
+          <a href="mailto:contact@aevum-sa.com" class="link-w-icon w-inline-block"><img src="/images/Mail.svg" loading="lazy" alt="" class="link-icon link-icon--left">
+            <div class="footer-link">{{ site.email }}</div>
+          </a>
+          <a href="https://www.google.com/maps/dir//Lekka+23-25,+Athina+105+62/@37.9771511,23.7293994,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14a1bd3c6e6039f1:0x70e2572b5cabddae!2m2!1d23.7315881!2d37.9771469" target="_blank" class="link-w-icon w-inline-block"><img src="/images/Map-Pin.svg" loading="lazy" alt="" class="link-icon link-icon--left">
+            <div class="footer-link">{{ site.address.[page.lang] }}</div>
+          </a>
+          <div class="link-w-icon"><img src="/images/Clock.svg" loading="lazy" alt="" class="link-icon link-icon--left">
+            <div class="footer-link no-hover">{{ site.opening-hours.[page.lang] }}</div>
           </div>
         </div>
-        <div id="w-node-c6521fabf74e-143234b3" class="div-block">
-          <h2>{{ site.data.contact.[page.lang].contact-form.title }}</h2>
-          <div data-netlify="true" class="form-block w-form">
-            <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form"><label for="name" class="label">{{ site.data.contact.[page.lang].contact-form.name }}</label><input type="text" class="text-field contact-form-field short-field w-input" maxlength="256" name="name" data-name="Name" placeholder="John Smith" id="name"><label for="Email-4" class="label">{{ site.data.contact.[page.lang].contact-form.email }}</label><input type="email" class="text-field contact-form-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="you@email.com" id="Email-4" required=""><label for="Phone-Number" class="label">{{ site.data.contact.[page.lang].contact-form.phone }}</label><input type="tel" class="text-field contact-form-field w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="+30 6900000000" id="Phone-Number"><label for="Message" class="label">{{ site.data.contact.[page.lang].contact-form.message }}</label><textarea required="" maxlength="5000" id="Message" name="Message" data-name="Message" placeholder="Write your message here and click “Submit”" class="text-field contact-form-field message-field w-input"></textarea><input type="submit" value="{{ site.data.contact.[page.lang].contact-form.button-text }}" data-wait="Please wait..." class="button w-button"></form>
-            <div class="success-message w-form-done">
-              <div>
-                {{ site.data.contact.[page.lang].contact-form.success }}
-              </div>
+      </div>
+      <div id="w-node-c6521fabf74e-143234b3" class="div-block">
+        <h2>{{ site.data.contact.[page.lang].contact-form.title }}</h2>
+        <div class="form-block w-form">
+
+          <form data-name="Contact Form" id="Contact-Form" name="Contact-Form" netlify>
+            <label class="label" for="name">{{ site.data.contact.[page.lang].contact-form.name }}</label>
+            <input class="text-field contact-form-field short-field w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="John Smith" type="text">
+            <label class="label" for="Email-4">{{ site.data.contact.[page.lang].contact-form.email }}</label>
+            <input class="text-field contact-form-field w-input" data-name="Email" id="Email-4" maxlength="256" name="Email" placeholder="you@email.com" required="" type="email">
+            <label class="label" for="Phone-Number">{{ site.data.contact.[page.lang].contact-form.phone }}</label>
+            <input class="text-field contact-form-field w-input" data-name="Phone Number" id="Phone-Number" maxlength="256" name="Phone-Number" placeholder="+30 6900000000" type="tel">
+            <label class="label" for="Message">{{ site.data.contact.[page.lang].contact-form.message }}</label> 
+          
+            <textarea class="text-field contact-form-field message-field w-input" data-name="Message" id="Message" maxlength="5000" name="Message" placeholder="Write your message here and click “Submit”" required=""></textarea>
+            
+            <input class="button w-button" data-wait="Please wait..." type="submit" value="{{ site.data.contact.[page.lang].contact-form.button-text }}">
+          </form>
+          
+          <div class="success-message w-form-done">
+            <div>
+              {{ site.data.contact.[page.lang].contact-form.success }}
             </div>
-            <div class="w-form-fail">
-              <div>
-                {{ site.data.contact.[page.lang].contact-form.error }}
-              </div>
+          </div>
+          <div class="w-form-fail">
+            <div>
+              {{ site.data.contact.[page.lang].contact-form.error }}
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="section">
-    <div class="container">
-      <div class="flex-wrapper flex-wrapper--vertical vertical--center">
-        <h2>{{ site.data.contact.[page.lang].text-above-map }}</h2>
-        <a href="https://www.google.com/maps/dir//Lekka+23-25,+Athina+105+62/@37.9771511,23.7293994,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14a1bd3c6e6039f1:0x70e2572b5cabddae!2m2!1d23.7315881!2d37.9771469" target="_blank" class="w-inline-block"><img src="/images/aevum-map-pin.png" loading="lazy" sizes="100vw" srcset="/images/aevum-map-pin-p-500.png 500w, /images/aevum-map-pin.png 832w" alt="" class="map-image image-w-shadow link-image"></a>
-      </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="flex-wrapper flex-wrapper--vertical vertical--center">
+      <h2>{{ site.data.contact.[page.lang].text-above-map }}</h2>
+      <a href="https://www.google.com/maps/dir//Lekka+23-25,+Athina+105+62/@37.9771511,23.7293994,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14a1bd3c6e6039f1:0x70e2572b5cabddae!2m2!1d23.7315881!2d37.9771469" target="_blank" class="w-inline-block"><img src="/images/aevum-map-pin.png" loading="lazy" sizes="100vw" srcset="/images/aevum-map-pin-p-500.png 500w, /images/aevum-map-pin.png 832w" alt="" class="map-image image-w-shadow link-image"></a>
     </div>
   </div>
+</div>
