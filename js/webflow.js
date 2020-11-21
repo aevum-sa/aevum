@@ -18233,7 +18233,7 @@
                 return (
                     (h.ready = h.design = h.preview = function () {
                         !(function () {
-                            return;a=t(“html”).attr(“data-wf-site”), (o = "https://webflow.com/api/v1/form/" + a), f && o.indexOf("https://webflow.com") >= 0 && (o = o.replace("https://webflow.com", "http://formdata.webflow.com"));
+                            (a = t("html").attr("data-wf-site")), (o = "https://webflow.com/api/v1/form/" + a), f && o.indexOf("https://webflow.com") >= 0 && (o = o.replace("https://webflow.com", "http://formdata.webflow.com"));
                             if (((l = "".concat(o, "/signFile")), !(r = t(p + " form")).length)) return;
                             r.each(_);
                         })(),
@@ -18278,7 +18278,7 @@
         );
     },
 
-
+    
     function (t, e, r) {
         var n = r(386),
             i = r(387),
