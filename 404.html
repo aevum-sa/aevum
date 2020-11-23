@@ -6,13 +6,18 @@ ref: 404
 lang: en
 permalink: /404.html
 ---
-<h3>{{site.data.404.en.title}}</h2>
-{% for item in site.data.404.en.body%}
-<p>{{item.p}}</p>
-{%endfor%}
+<div lang="en">
+    <h3>{{site.data.404.en.title}}</h2>
+    {% for item in site.data.404.en.body%}
+    <p>{{item.p}}</p>
+    {%endfor%}
+</div>
 <hr>
-<h3>{{site.data.404.el.title}}</h2>
-{% for item in site.data.404.el.body%}
-<p>{{item.p}}</p>
+<div lang="el">
+    <h3>{{site.data.404.el.title}}</h2>
+    {% for item in site.data.404.el.body%}
+    <p>{{item.p}}</p>
+    {%endfor%}
+</div>
 <hr>
 <p class="label">Error Code: 404</p>
