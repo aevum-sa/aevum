@@ -36,11 +36,14 @@
                 
                 {% for dropdown-item in site.data.navbar.[page.lang].center-nav-items.dropdown-items %}
                   <a href="/{{page.lang}}/{{dropdown-item.url}}" class="dropdown-link w-dropdown-link">{{dropdown-item.name}}</a>
+                {% endfor %}
               </nav>
             </div>
 
           {%else%}
+
               <a href="/{{page.lang}}/{{nav-item.url}}" class="nav-link w-nav-link">{{nav-item.name}}</a>
+          
           {%endif%}
 
         {% endfor %}
