@@ -1,75 +1,81 @@
-en: 
+---
+en:
   col-2-1-title: Company
-  col-2-1-links: #url without /
-    - name: About us
-      url: #
-    - name: Cooperation
-      url: #
+  col-2-1-links:
+  - name: About us
+    url: ''
+  - name: Cooperation
+    url: ''
   col-2-2-title: Connect
-  col-2-2-links: #url without /
-    - name: Facebook
-      url: #
-      image: images/Facebook.svg
-    - name: Instagram
-      url: #
-      image: images/Instagram.svg
+  col-2-2-links:
+  - name: Facebook
+    url: ''
+    image: images/Facebook.svg
+  - name: Instagram
+    url: ''
+    image: images/Instagram.svg
   col-3-title: Customer Support
-  col-3-links: #url without /
-    - name: Contact us
-      url: contact
-    - name: Payment Options
-      url: #
-    - name: FAQ
-      url: faq
-    - name: Wholesale
-      url: #
-    - name: Privacy Policy
-      url: #
-    - name: Terms of Use
-      url: #
-  newsletter: 
+  col-3-links:
+  - name: Contact us
+    url: contact
+  - name: Payment Options
+    url: ''
+  - name: FAQ
+    url: faq
+  - name: Wholesale
+    url: ''
+  - name: Privacy Policy
+    url: ''
+  - name: Terms of Use
+    url: ''
+  newsletter:
     title: Join our Newsletter
-    disclaimer: We will never share your email address with third parties and you can unsubscribe at any time. By clicking on the &gt; button you consent to our terms of use and privacy policy.
+    disclaimer: We will never share your email address with third parties and you
+      can unsubscribe at any time. By clicking on the &gt; button you consent to our
+      terms of use and privacy policy.
     button: Subscribe
-    error-message: <strong>Something went wrong</strong>. Please check your internet connection. Otherwise call or email us and we’ll fix the issue.
+    error-message: "<strong>Something went wrong</strong>. Please check your internet
+      connection. Otherwise call or email us and we’ll fix the issue."
     success-message: You’re subscribed!
     label: Your email
     placeholder: you@example.com
-
-el: 
+el:
   col-2-1-title: Εταιρεία
-  col-2-1-links: #url without /
-    - name: Σχετικά
-      url: #
-    - name: Συνεργασία
-      url: #
+  col-2-1-links:
+  - name: Σχετικά
+    url: ''
+  - name: Συνεργασία
+    url: ''
   col-2-2-title: Connect
-  col-2-2-links: #url without /
-    - name: Facebook
-      url: #
-      image: images/Facebook.svg
-    - name: Instagram
-      url: #
-      image: images/Instagram.svg"
+  col-2-2-links:
+  - name: Facebook
+    url: ''
+    image: images/Facebook.svg
+  - name: Instagram
+    url: ''
+    image: images/Instagram.svg"
   col-3-title: Εξυπηρέτηση πελατών
-  col-3-links: #url without /
-    - name: Επικοινωνία
-      url: contact
-    - name: Τρόποι πληρωμής
-      url: #
-    - name: Συχνές ερωτήσεις
-      url: faq
-    - name: Χονδρική
-      url: #
-    - name: Πολιτική απορρήτου
-      url: #
-    - name: Όροι χρήσης
-      url: #
-  newsletter: 
+  col-3-links:
+  - name: Επικοινωνία
+    url: contact
+  - name: Τρόποι πληρωμής
+    url: ''
+  - name: Συχνές ερωτήσεις
+    url: faq
+  - name: Χονδρική
+    url: ''
+  - name: Πολιτική απορρήτου
+    url: ''
+  - name: Όροι χρήσης
+    url: ''
+  newsletter:
     title: Γραφτείτε στο Newsletter μας
-    disclaimer: Ποτέ δεν θα μοιραστούμε την διεύθυνση σας με τρίτους και μπορείτε να διαγραφείτε από τη λίστα οποιαδήποτε στιγμή. Πατώντας το κουμπί &gt; συμφωνείτε με τους όρους χρήσης και την πολιτική απορρήτου μας.
+    disclaimer: Ποτέ δεν θα μοιραστούμε την διεύθυνση σας με τρίτους και μπορείτε
+      να διαγραφείτε από τη λίστα οποιαδήποτε στιγμή. Πατώντας το κουμπί &gt; συμφωνείτε
+      με τους όρους χρήσης και την πολιτική απορρήτου μας.
     button: Εγγραφή
-    error-message: <strong>Κάτι πήγε στραβά</strong>. Ελέγξτε την σύνδεση σας. Μπορείτε να μας καλέσετε για να διορθώσουμε το θέμα.
+    error-message: "<strong>Κάτι πήγε στραβά</strong>. Ελέγξτε την σύνδεση σας. Μπορείτε
+      να μας καλέσετε για να διορθώσουμε το θέμα."
     success-message: Γραφτήκατε στην λίστα μας!
     label: Το e-mail σας
     placeholder: you@example.com
