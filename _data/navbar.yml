@@ -2,7 +2,7 @@ en:
   center-nav-items:
     - name: Store
       dropdown-items: 
-        - name: SEE AKK
+        - name: SEE ALL
           url: /store
         - name: Rings
           url: #
