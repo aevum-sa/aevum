@@ -5,9 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: _config.yml
+  label: Company Info
+  match: "**/*"
+- type: document
   path: _data/faq.yml
   label: FAQ
-  match: "**/*"
 - type: directory
   path: _data
   label: All Text Content
