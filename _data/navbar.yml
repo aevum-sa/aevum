@@ -1,4 +1,5 @@
 en: 
+  lang-switcher: EN/EL
   center-nav-items:
     - name: Store
       dropdown-items: 
@@ -21,6 +22,35 @@ en:
         - name: Gemstones
           url: wholesale/gemstones
         - name: Precious Metals
+          url: wholesale/metals
+    - name: Diamond&nbsp;Grading
+      url: grading
+    - name: Diamond 4 C<span class="lowercase-span">s</span>
+      url: "{% posturl 2020-11-15-Diamond_Characteristics %}"
+el: 
+  lang-switcher: EN/EL
+  center-nav-items:
+    - name: Store
+      dropdown-items: 
+        - name: Όλα
+          url: /store
+        - name: Rings
+          url: #
+        - name: Earrings
+          url: #
+        - name: Bracelets
+          url: #
+        - name: Necklaces
+          url: #
+        - name: Crosses
+          url: #
+    - name: Χονδρικη
+      dropdown-items: 
+        - name: Κοσμήματα
+          url: wholesale/jewelry
+        - name: Διαμάντια
+          url: wholesale/gemstones
+        - name: Πολύτιμα μέταλλα
           url: wholesale/metals
     - name: Diamond&nbsp;Grading
       url: grading
