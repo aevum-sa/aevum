@@ -30,7 +30,7 @@ fields:
         menu) add them here.
 - type: field_group
   name: el
-  label: el
+  label: Greek
   fields:
   - type: text
     name: lang-switcher
