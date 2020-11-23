@@ -1,7 +1,8 @@
 ---
 layout: policy
-title: Terms of Use
+title: Όροι Χρήσης
 lang: el
 ref: terms
+
 ---
 Εδώ γράψε για τους όρους χρήσης

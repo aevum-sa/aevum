@@ -4,24 +4,72 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: _data
-  label: All Text Content
+- type: document
+  path: _config.yml
+  label: Company Info
+- type: document
+  path: _data/faq.yml
+  label: FAQ
+- type: heading
+  label: Components
+- type: document
+  path: _data/navbar.yml
+  label: Navigation Menu
+- type: document
+  path: _data/footer.yml
+  label: Footer
+  match: "**/*"
+- type: document
+  path: _data/cta.yml
+  label: CTA
+  match: "**/*"
+- type: document
+  path: _data/categories.yml
+  label: Categories
+  match: "**/*"
+- type: heading
+  label: Pages
+- type: document
+  path: _data/home.yml
+  label: Home
+- type: document
+  path: _data/grading.yml
+  label: Grading
+- type: document
+  path: _data/contact.yml
+  label: Contact
+- type: document
+  path: _data/404.yml
+  label: 404 Error
+- type: jekyll-posts
+  label: Posts
   create: all
-  match: "*.yml"
-  new_doc_ext: yml
 - type: directory
   path: _data/text-pages
   label: Text-only Pages
   create: all
   match: "*.md"
   new_doc_ext: md
-- type: jekyll-pages
-  label: Not Ready
+- type: directory
+  path: _data
+  label: All Text Content
   create: all
-- type: jekyll-posts
-  label: Posts
-  create: all
+  match: "*.yml"
+  new_doc_ext: yml
+- type: heading
+  label: Wholesale Pages
+- type: document
+  path: _data/wholesale-gems.yml
+  label: Gemstones
+  match: "**/*"
+- type: document
+  path: _data/wholesale-jewelry.yml
+  label: Jewelry
+  match: "**/*"
+- type: document
+  path: _data/wholesale-metals.yml
+  label: Metals
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

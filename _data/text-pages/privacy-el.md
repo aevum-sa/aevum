@@ -1,8 +1,9 @@
 ---
 layout: policy
-title: Privacy Policy
-lang: en
+title: Πολιτική Απορρήτου
+lang: el
 ref: privacy
+
 ---
 ## Owner and Data Controller
 **AEVUM Premium Trading S.A.**  
