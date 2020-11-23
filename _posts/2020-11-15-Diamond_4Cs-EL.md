@@ -15,7 +15,7 @@ permalink: "/el/diamond-4cs"
 
 Το βάρος των διαμαντιών αλλά και γενικότερα των πολύτιμων λίθων, μετριέται σε καράτια (ct) και αντιστοιχεί σε 0,20 g. Όσο μεγαλύτερη σε μέγεθος είναι η πέτρα τόσο ανεβαίνει και η τιμή της, λόγω της σπανιότητας των μεγάλων πετρών.
 
-![Illustration of diamond carat weight compared with size in mm](images/4cs-weight.jpg)
+![Illustration of diamond carat weight compared with size in mm](/images/4cs-weight.jpg)
 
 ## Χρώμα (Color)
 
@@ -23,7 +23,7 @@ permalink: "/el/diamond-4cs"
 
 Το χρώμα των διαμαντιών μπορεί να είναι από άχρωμο έως και κίτρινο. Οι χρωματικές αποχρώσεις των διαμαντιών είναι τόσο ανεπαίσθητες που τις καθιστά αόρατες για ένα ανειδίκευτο μάτι. Αυτές όμως οι μικρές χρωματικές διαφορές παίζουν πολύ σημαντικό ρόλο στην ποιότητα καθώς και στην αξία του διαμαντιού.
 
-![Illustration of the diamond color range, ranging from D to Z, with D being the clearest and Z the most yellow](images/4cs-color.jpg)
+![Illustration of the diamond color range, ranging from D to Z, with D being the clearest and Z the most yellow](/images/4cs-color.jpg)
 
 ## **Καθαρότητα (Clarity)**
 
@@ -37,7 +37,7 @@ permalink: "/el/diamond-4cs"
 * **Small Inclusions (SI1/SI2)**: Εγκλήσεις οι οποίες είναι εμφανείς με 10× μεγέθυνση.
 * **Pique or Included (P1/I1, P2/I2, P3/I3)**: Εγκλίσεις ο οποίες είναι προφανείς με 10× μεγέθυνση και πολλές φορές φαίνονται με γυμνό μάτι. Αυτού του τύπου εγκλήσεις μπορούν να επηρεάσουν σημαντικά τη διαφάνεια του διαμαντιού καθώς και τη λάμψη του.
 
-**![](images/4cs-clarity.jpg)**
+**![](/images/4cs-clarity.jpg)**
 
 ## **Κοπή (**Cut)
 
@@ -54,4 +54,4 @@ permalink: "/el/diamond-4cs"
 
 Όσο χειρότερη είναι η κοπή τόσο λιγότερο φως διαρρέει με αποτέλεσμα να μην επιστρέφει στο μάτι και το διαμάντι να λάμπει λιγότερο.
 
-![Illustration of diamond cuts and shapes](images/4cs-cut.png)
+![Illustration of diamond cuts and shapes](/images/4cs-cut.png)
