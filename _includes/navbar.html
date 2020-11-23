@@ -58,7 +58,6 @@
         <!-- NAVIGATION CENTER LINKS - No dropdown - START -->
 
         {% for nav-item in site.data.navbar.[page.lang].nav-items-no-dropdown%}
-            <a href="/{{page.lang}}/{{nav-item.url}}" class="dropdown-link w-dropdown-link">{{nav-item.name}}</a>
             <a href="/{{page.lang}}/{{nav-item.url}}" class="nav-link w-nav-link">{{nav-item.name}}</a>
         {% endfor %}
 
@@ -74,7 +73,7 @@
         <a href="#" class="nav-icon-link hidden-desktop w-inline-block"><img src="/images/icon-user.svg" loading="lazy" alt="" class="nav-icon"></a>
       </nav>
 
-      
+
       <div class="navigation-side-plain right">
         <a href="#!/~/search" class="nav-icon-link w-inline-block"><img src="/images/icon-search.svg" loading="lazy" alt="" class="nav-icon"></a>
         <a href="#!/~/cart" class="nav-icon-link w-inline-block"><img src="/images/icon-bag.svg" loading="lazy" alt="" class="nav-icon"></a>
