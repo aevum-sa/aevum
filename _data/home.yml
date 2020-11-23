@@ -4,7 +4,7 @@ en:
       url: store
       class: button button--filled w-button
     - name: Diamond 4Cs
-      url: Diamond-4Cs
+      url: diamond-4cs
       class: button w-button
   wholesale:
     title: wholesale
