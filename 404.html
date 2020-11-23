@@ -7,8 +7,9 @@ lang: en
 permalink: /404.html
 ---
 <h3>{{site.data.404.en.title}}</h2>
-<p>Please use the links on the top and bottom of this page to find what you were looking for.</p>
-<p>If you encounter any other issues, do not hesitate to <a href="/en/contact">contact us</a>.</p>
+{% for item in site.data.404.en.body%}
+<p>{{item.p}}</p>
+{%endfor%}
 <hr>
 <h3>Δεν μπορέσαμε να βρούμε τη σελίδα που προσπαθήσατε να επισκεφθείτε.</h2>
 <p>Παρακαλούμε χρησιμοποιήστε τους συνδέσμους στο πάνω και κάτω μέρος αυτής της σελίδας για να βρείτε αυτό που ψάχνετε.</p>
