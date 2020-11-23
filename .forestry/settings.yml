@@ -62,6 +62,14 @@ sections:
   path: _data/wholesale-gems.yml
   label: Gemstones
   match: "**/*"
+- type: document
+  path: _data/wholesale-jewelry.yml
+  label: Jewelry
+  match: "**/*"
+- type: document
+  path: _data/wholesale-metals.yml
+  label: Metals
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
