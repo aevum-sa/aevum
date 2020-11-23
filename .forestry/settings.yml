@@ -41,6 +41,9 @@ sections:
 - type: document
   path: _data/404.yml
   label: 404 Error
+- type: jekyll-posts
+  label: Posts
+  create: all
 - type: directory
   path: _data/text-pages
   label: Text-only Pages
@@ -53,9 +56,12 @@ sections:
   create: all
   match: "*.yml"
   new_doc_ext: yml
-- type: jekyll-posts
-  label: Posts
-  create: all
+- type: heading
+  label: Wholesale Pages
+- type: document
+  path: _data/wholesale-gems.yml
+  label: Gemstones
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
