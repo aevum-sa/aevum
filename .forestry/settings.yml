@@ -18,15 +18,12 @@ sections:
 - type: document
   path: _data/footer.yml
   label: Footer
-  match: "**/*"
 - type: document
   path: _data/cta.yml
   label: CTA
-  match: "**/*"
 - type: document
   path: _data/categories.yml
   label: Categories
-  match: "**/*"
 - type: heading
   label: Pages
 - type: document
@@ -61,15 +58,12 @@ sections:
 - type: document
   path: _data/wholesale-gems.yml
   label: Gemstones
-  match: "**/*"
 - type: document
   path: _data/wholesale-jewelry.yml
   label: Jewelry
-  match: "**/*"
 - type: document
   path: _data/wholesale-metals.yml
   label: Metals
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

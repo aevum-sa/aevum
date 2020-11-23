@@ -1,0 +1,146 @@
+---
+label: Footer
+hide_body: true
+fields:
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: text
+    name: col-2-1-title
+    label: col-2-1-title
+  - type: field_group_list
+    name: col-2-1-links
+    label: col-2-1-links
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+  - type: text
+    name: col-2-2-title
+    label: col-2-2-title
+  - type: field_group_list
+    name: col-2-2-links
+    label: col-2-2-links
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+    - type: file
+      name: image
+      label: image
+  - type: text
+    name: col-3-title
+    label: col-3-title
+  - type: field_group_list
+    name: col-3-links
+    label: col-3-links
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+  - type: field_group
+    name: newsletter
+    label: newsletter
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: disclaimer
+      label: disclaimer
+    - type: text
+      name: button
+      label: button
+    - type: textarea
+      name: error-message
+      label: error-message
+    - type: text
+      name: success-message
+      label: success-message
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: placeholder
+      label: placeholder
+- type: field_group
+  name: el
+  label: el
+  fields:
+  - type: text
+    name: col-2-1-title
+    label: col-2-1-title
+  - type: field_group_list
+    name: col-2-1-links
+    label: col-2-1-links
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+  - type: text
+    name: col-2-2-title
+    label: col-2-2-title
+  - type: field_group_list
+    name: col-2-2-links
+    label: col-2-2-links
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+    - type: file
+      name: image
+      label: image
+  - type: text
+    name: col-3-title
+    label: col-3-title
+  - type: field_group_list
+    name: col-3-links
+    label: col-3-links
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+  - type: field_group
+    name: newsletter
+    label: newsletter
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: disclaimer
+      label: disclaimer
+    - type: text
+      name: button
+      label: button
+    - type: textarea
+      name: error-message
+      label: error-message
+    - type: text
+      name: success-message
+      label: success-message
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: placeholder
+      label: placeholder
