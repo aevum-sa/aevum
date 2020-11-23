@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Χαρακτηριστικά των διαμαντιών
-image: images/diamonds-p-1080.png
+image: /images/diamonds-p-1080.png
 lang: el
 ref: diamond-4cs
 permalink: "/el/diamond-4cs"
