@@ -4,11 +4,11 @@ hide_body: true
 fields:
 - type: field_group
   name: en
-  label: en
+  label: English
   fields:
   - type: field_group_list
     name: categories
-    label: categories
+    label: Categories
     fields:
     - type: text
       name: name
@@ -21,11 +21,11 @@ fields:
       label: image
 - type: field_group
   name: el
-  label: el
+  label: Greek
   fields:
   - type: field_group_list
     name: categories
-    label: categories
+    label: Categories
     fields:
     - type: text
       name: name
