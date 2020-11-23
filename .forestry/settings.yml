@@ -8,29 +8,39 @@ sections:
   path: _config.yml
   label: Company Info
 - type: document
+  path: _data/faq.yml
+  label: FAQ
+- type: heading
+  label: Components
+- type: document
   path: _data/navbar.yml
   label: Navigation Menu
 - type: document
-  path: _data/faq.yml
-  label: FAQ
+  path: _data/footer.yml
+  label: Footer
+  match: "**/*"
+- type: document
+  path: _data/cta.yml
+  label: CTA
+  match: "**/*"
+- type: document
+  path: _data/categories.yml
+  label: Categories
+  match: "**/*"
 - type: heading
   label: Pages
 - type: document
   path: _data/home.yml
   label: Home
-  match: "**/*"
 - type: document
   path: _data/grading.yml
   label: Grading
-  match: "**/*"
 - type: document
   path: _data/contact.yml
   label: Contact
-  match: "**/*"
 - type: document
   path: _data/404.yml
   label: 404 Error
-  match: "**/*"
 - type: directory
   path: _data/text-pages
   label: Text-only Pages
