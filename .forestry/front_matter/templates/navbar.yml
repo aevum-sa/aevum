@@ -1,0 +1,52 @@
+---
+label: Navbar
+hide_body: true
+fields:
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: text
+    name: lang-switcher
+    label: lang-switcher
+  - type: field_group_list
+    name: center-nav-items
+    label: center-nav-items
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: field_group_list
+      name: dropdown-items
+      label: dropdown-items
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: text
+        name: url
+        label: url
+- type: field_group
+  name: el
+  label: el
+  fields:
+  - type: text
+    name: lang-switcher
+    label: lang-switcher
+  - type: field_group_list
+    name: center-nav-items
+    label: center-nav-items
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: field_group_list
+      name: dropdown-items
+      label: dropdown-items
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: text
+        name: url
+        label: url
