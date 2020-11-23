@@ -33,9 +33,8 @@
               <nav class="dropdown-list w-dropdown-list">
     
                 <a href="/{{page.lang}}/store" class="dropdown-link w-dropdown-link">SEE ALL</a>
-                
-                {%assign current-nav-item = nav-item.name%}
-                {% for dropdown-item in current-nav-item.dropdown-items %}
+
+                {% for dropdown-item in nav-item.dropdown-items %}
                   <a href="/{{page.lang}}/{{dropdown-item.url}}" class="dropdown-link w-dropdown-link">{{dropdown-item.name}}</a>
                 {% endfor %}
 
