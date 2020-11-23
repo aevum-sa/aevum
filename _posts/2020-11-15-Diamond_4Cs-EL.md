@@ -1,50 +1,57 @@
 ---
 layout: post
-title: Diamond 4Cs
+title: Χαρακτηριστικά των διαμαντιών
 image: images/diamonds-p-1080.png
 lang: el
 ref: diamond-4cs
 permalink: "/el/diamond-4cs"
 
 ---
-## Εδώ θα μπει το ελληνικό Version
+## Τα τέσσερα “C”
 
-The renowned diamond is a mineral of great commercial value all around the world, which comes down to its hardness and luster, characteristics that set it apart and render it greatly sought after. In their natural state, diamonds are translucent, transparent or opaque and their colors vary. There are diamonds that are colorless, pink, yellow, sky blue, and even black.
+Το διαμάντι ή αδάμαντας είναι περίφημο ορυκτό με ιδιαίτερη διεθνή εμπορική αξία, λόγω της μεγάλης σκληρότητας αλλά και της ισχυρής λάμψης του, χαρακτηριστικά που το κάνουν να ξεχωρίζει και να είναι τόσο περιζήτητο. Στη φυσική τους κατάσταση τα διαμάντια είναι ημιδιάφανα, διάφανα ή και αδιαφανή και τα χρώματά τους ποικίλουν καθώς υπάρχουν άχρωμα, ροζ, κίτρινα, γαλάζια ακόμη και μαύρα.
 
-## Weight
-The weight of a diamond, and any other gemstone, is measured in carats (ct). Each carat is equivalent to 0,20 grams. The bigger the stone, the higher its price since large stones are more rare.
+## Βάρος (Carats)
+
+Το βάρος των διαμαντιών αλλά και γενικότερα των πολύτιμων λίθων, μετριέται σε καράτια (ct) και αντιστοιχεί σε 0,20 g. Όσο μεγαλύτερη σε μέγεθος είναι η πέτρα τόσο ανεβαίνει και η τιμή της, λόγω της σπανιότητας των μεγάλων πετρών.
 
 ![Illustration of diamond carat weight compared with size in mm](images/4cs-weight.jpg)
 
-## Color
-Grading a diamond’s color is all about the absence of color. You might be wondering “how does that make sense?” In fact, it’s quite simple; a chemically “clean” and structurally perfect diamond is colorless, and thus more expensive.
+## Χρώμα (Color)
 
-The color of a diamond ranges from completely colorless to yellow. The difference in shade between diamonds is so hard to perceive that it’s invisible to the untrained eye. Despite that, those tiny variations play a very important role in the quality and worth of a diamond.
+Η αξιολόγηση του χρώματος των διαμαντιών ουσιαστικά βασίζεται στην απουσία των χρωμάτων. Θα αναρωτιέστε “Μα καλά πως γίνεται αυτό;”. Κι όμως είναι πολύ απλό: ένα διαμάντι το οποίο είναι χημικά καθαρό και δομικά τέλειο είναι άχρωμο, συνεπώς έχει και μεγαλύτερο κόστος. 
+
+Το χρώμα των διαμαντιών μπορεί να είναι από άχρωμο έως και κίτρινο. Οι χρωματικές αποχρώσεις των διαμαντιών είναι τόσο ανεπαίσθητες που τις καθιστά αόρατες για ένα ανειδίκευτο μάτι. Αυτές όμως οι μικρές χρωματικές διαφορές παίζουν πολύ σημαντικό ρόλο στην ποιότητα καθώς και στην αξία του διαμαντιού.
 
 ![Illustration of the diamond color range, ranging from D to Z, with D being the clearest and Z the most yellow](images/4cs-color.jpg)
 
-## Clarity
-Clarity concerns the existence or absence of “inclusions,” small defects and imperfections within a diamond, and whether those are visible. Another factor that makes a diamond special, other than its shine and beauty, is its uniqueness, since it’s impossible for two identical diamonds, with the same  elements in the exact same places, to exist.
-**Below you can see all the possible clarity ratings a diamond can have:**
+## **Καθαρότητα (Clarity)**
 
-* **Loupe Clean (LC) / Flawless (FL)**: Flawless, without any visible inclusions when viewed at 10× zoom.
-* **Internally Flawless (IF)**: Contains no visible inclusions when viewed at 10× zoom.
-* **Very Very Small inclusions (VVS1/VVS2 )**: Contains tiny inclusions that are hard to detect even by an experiences grader when viewed at 10× zoom.
-* **Very Small inclusions (VS1/VS2)**: Contains inclusions that are easy to see when viewed at 10× zoom but are hardly important.
-* **Small Inclusions (SI1/SI2)**: Contains detectable inclusions when viewed at 10× zoom.
-* **Pique or Included (P1/I1, P2/I2, P3/I3)**: Contains inclusions that are unmissable when viewed at 10× zoom and are often visible to the naked eye. This kind of inclusion can severely affect the clearness as well as the shine of a diamond.
+Η καθαρότητα συσχετίζεται με την ύπαρξη ή μη εγκλίσεων, δηλαδή ακαθαρσιών και ψεγαδιών, μέσα στο διαμάντι και κατά πόσο αυτά είναι ορατά. Ένας ακόμη παράγοντας που κάνει τα διαμάντια ξεχωριστά εκτός από τη λάμψη και την ομορφιά τους είναι η μοναδικότητά τους, μιας και είναι αδύνατο να υπάρχουν δύο διαμάντια στα οποία να υπάρχουν τα ίδια στοιχεία στις ίδιες θέσεις.
+**Παρακάτω μπορείτε να δείτε τις διαβαθμίσεις που έχει η καθαρότητα των διαμαντιών::**
+
+* **Loupe Clean (LC) / Flawless (FL)**: Αψεγάδιαστο, χωρίς εμφανείς εγκλίσεις με 10× μεγέθυνση.
+* **Internally Flawless (IF)**: Χωρίς εμφανείς εγκλίσεις με 10× μεγέθυνση.
+* **Very Very Small inclusions (VVS1/VVS2 )**: Μικροσκοπικές εγκλίσεις τις οποίες ακόμη και ένα έμπειρος εκτιμητής δεν μπορεί να εντοπίσει με 10× μεγέθυνση.
+* **Very Small inclusions (VS1/VS2)**: Με εγκλήσεις οι οποίες διακρίνονται εύκολα με 10× μεγέθυνση αλλά είναι μικρή σημασίας.
+* **Small Inclusions (SI1/SI2)**: Εγκλήσεις οι οποίες είναι εμφανείς με 10× μεγέθυνση.
+* **Pique or Included (P1/I1, P2/I2, P3/I3)**: Εγκλίσεις ο οποίες είναι προφανείς με 10× μεγέθυνση και πολλές φορές φαίνονται με γυμνό μάτι. Αυτού του τύπου εγκλήσεις μπορούν να επηρεάσουν σημαντικά τη διαφάνεια του διαμαντιού καθώς και τη λάμψη του.
 
 **![](images/4cs-clarity.jpg)**
 
-## Cut
-Diamonds have certain properties, like their hardness, ability to reflect light and, of course, shine. Grading a diamond’s cut is about evaluating how much the way they’ve been cut helps bring out those properties. The amount of light reflected is related to the proportions, the symmetry and the polish of a diamond. The closer to perfect that those characteristics are, the more light the diamond can reflect.
-The quality of the cut is important not only when it comes to the final appearance, but also the worth of a diamond, something that’s complex to determine since many factors play a role. The Brightness, Fire and Scintillation all have something to do with the appearance of the diamond. The Symmetry, Polish and Proportions are about its design.
-Taking into account the factors above, a diamond’s Cut can be characterized as either of the terms below:
-* Excellent
-* Very Good
-* Good
-* Poor/Faint
+## **Κοπή (**Cut)
 
-The worse the Cut, the less light can circulate, which results in less light reaching our eyes and thus a weaker shine.
+Τα διαμάντια έχουν κάποιες συγκεκριμένες ιδιότητες, όπως είναι η σκληρότητά τους, η μετάδοση του φωτός και φυσικά η λάμψη τους. Η αξιολόγηση της κοπής έχει να κάνει με το πόσο καλά είναι κομμένο ένα διαμάντι ώστε να αναδεικνύονται οι ιδιότητές του. Η ποσότητα φωτός που αντανακλάται έχει σχέση με τις αναλογίες, τη συμμετρία και το φινίρισμα, δηλαδή το γυάλισμα, του διαμαντιού. Όσο πιο τέλεια είναι αυτά τα χαρακτηριστικά τόσο πιο πολύ φως αντανακλάται.
+
+Η ποιότητα της κοπής είναι σημαντική όχι μόνο για την τελική εμφάνισή του αλλά και την αξία του, κάτι το οποίο είναι πολύπλοκο και τεχνικά δύσκολο καθότι παίζουν σημαντικό ρόλο αρκετοί παράγοντες. Η λάμψη (Brightness), η Φωτιά(Fire) και το Λαμπύρισμα (Scintillation) τα οποία έχουν να κάνουμε με την εμφάνιση του διαμαντιού από πάνω. Η Συμμετρία (Symmetry), το Φινίρισμα (Polish) και η Αναλογία(Proportions) έχουν να κάνουν με τον σχεδιασμό.
+
+Λαμβάνοντας υπόψη όλους τους παραπάνω παράγοντες η Κοπή ενός διαμαντιού χαρακτηρίζεται ως:
+
+* Εξαιρετική (Excellent)
+* Πολύ καλή (Very Good)
+* Καλή (Good)
+* Μέτρια (Poor/Faint)
+
+Όσο χειρότερη είναι η κοπή τόσο λιγότερο φως διαρρέει με αποτέλεσμα να μην επιστρέφει στο μάτι και το διαμάντι να λάμπει λιγότερο.
 
 ![Illustration of diamond cuts and shapes](images/4cs-cut.png)

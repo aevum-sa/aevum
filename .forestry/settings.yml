@@ -9,7 +9,7 @@ sections:
   label: All Text Content
   create: all
   match: "*.yml"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
 - type: jekyll-pages
   label: Not Ready
   create: all
