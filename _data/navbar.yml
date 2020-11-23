@@ -2,6 +2,8 @@ en:
   center-nav-items:
     - name: Store
       dropdown-items: 
+        - name: SEE AKK
+          url: /store
         - name: Rings
           url: #
         - name: Earrings

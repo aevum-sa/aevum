@@ -34,9 +34,11 @@
     
                 <a href="/{{page.lang}}/store" class="dropdown-link w-dropdown-link">SEE ALL</a>
                 
-                {% for dropdown-item in site.data.navbar.[page.lang].center-nav-items.dropdown-items %}
+                {%assign current-nav-item = nav-item.name%}
+                {% for dropdown-item in current-nav-item.dropdown-items %}
                   <a href="/{{page.lang}}/{{dropdown-item.url}}" class="dropdown-link w-dropdown-link">{{dropdown-item.name}}</a>
                 {% endfor %}
+
               </nav>
             </div>
 
