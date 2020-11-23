@@ -1,0 +1,58 @@
+---
+label: CTA
+hide_body: true
+fields:
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: textarea
+    name: text
+    label: text
+  - type: field_group
+    name: button-1
+    label: button-1
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: textarea
+      name: url
+      label: url
+  - type: field_group
+    name: button-2
+    label: button-2
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+- type: field_group
+  name: el
+  label: el
+  fields:
+  - type: textarea
+    name: text
+    label: text
+  - type: field_group
+    name: button-1
+    label: button-1
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: textarea
+      name: url
+      label: url
+  - type: field_group
+    name: button-2
+    label: button-2
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
