@@ -1,52 +1,56 @@
 ---
-label: Navbar
+label: Navigation Links
 hide_body: true
 fields:
 - type: field_group
   name: en
-  label: en
+  label: English
   fields:
   - type: text
     name: lang-switcher
-    label: lang-switcher
+    label: Language Switcher Text
   - type: field_group_list
     name: center-nav-items
-    label: center-nav-items
+    label: Navigation Links in Center
     fields:
     - type: text
       name: name
-      label: name
+      label: Link Name
     - type: field_group_list
       name: dropdown-items
-      label: dropdown-items
+      label: Dropdown menu items
       fields:
       - type: text
         name: name
-        label: name
+        label: Link name
       - type: text
         name: url
-        label: url
+        label: Link URL
+      description: IF this link is supposed to have more links under it (expanding
+        menu) add them here.
 - type: field_group
   name: el
   label: el
   fields:
   - type: text
     name: lang-switcher
-    label: lang-switcher
+    label: Language Switcher Text
   - type: field_group_list
     name: center-nav-items
-    label: center-nav-items
+    label: Navigation Links in Center
     fields:
     - type: text
       name: name
-      label: name
+      label: Link Name
     - type: field_group_list
       name: dropdown-items
-      label: dropdown-items
+      label: Dropdown menu items
       fields:
       - type: text
         name: name
-        label: name
+        label: Link Name
       - type: text
         name: url
-        label: url
+        label: Link URL
+      description: IF this link is supposed to have more links under it (expanding
+        menu) add them here.
