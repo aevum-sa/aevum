@@ -1,0 +1,83 @@
+  <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar blur w-nav">
+    <div class="hidden w-embed w-script">
+      <!--  Ecwid Search Bar START  -->
+      <div id="my-search-32424241"></div>
+      <div>
+        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?32424241&data_platform=code&data_date=2020-07-03" charset="utf-8" defer=""></script>
+        <script type="text/javascript" defer=""> xSearch("id=my-search-32424241"); </script>
+      </div>
+      <!--  Ecwid Search Bar END  -->
+    </div>
+    <div class="navigation-logo-top">
+      <a href="/{{ page.lang }}" class="logo-link w-nav-brand"><img src="/images/Aevum-Logo-GOLD.svg" alt="" class="brand"></a>
+    </div>
+    <div class="navigation-items">
+      <div class="navigation-side-plain left">
+        <a href="{% if page.lang == 'en' %}/el/{{ page.ref }}{% else %}/en/{{ page.ref }}{% endif %}" class="nav-icon-link only-desktop w-inline-block">
+          <div class="nav-icon text-icon">{{ site.data.navbar.[page.lang].lang-switcher }}</div>
+        </a>
+        <a href="#" class="nav-icon-link only-desktop w-inline-block"><img src="/images/icon-user.svg" loading="lazy" alt="" class="nav-icon"></a>
+      </div>
+      <nav role="navigation" class="nav-menu-centre w-nav-menu">
+
+        <!-- NAVIGATION CENTER LINKS - Dropdown links - Start -->
+
+        <div data-hover="" data-delay="0" class="w-dropdown">
+          <div class="nav-link nav-dropdown w-dropdown-toggle">
+            <div class="nav-dropdown-text">Store</div>
+            <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+          </div>
+
+          <nav class="dropdown-list w-dropdown-list">
+
+            <a href="/{{page.lang}}/store" class="dropdown-link w-dropdown-link">SEE ALL</a>
+            
+            {% for dropdown-item in site.data.navbar.[page.lang].dropdown-items-store %}
+              <a href="/{{page.lang}}/{{dropdown-item.url}}" class="dropdown-link w-dropdown-link">{{dropdown-item.name}}</a>
+            {% endfor %}
+          
+          </nav>
+        </div>
+
+
+        <div data-hover="" data-delay="0" class="w-dropdown">
+          <div class="nav-link nav-dropdown w-dropdown-toggle">
+            <div class="nav-dropdown-text">Wholesale</div>
+            <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+          </div>
+
+          <nav class="dropdown-list w-dropdown-list">
+            
+            {% for dropdown-item in site.data.navbar.[page.lang].dropdown-items-wholesale %}
+            <a href="/{{page.lang}}/{{dropdown-item.url}}" class="dropdown-link w-dropdown-link">{{dropdown-item.name}}</a>
+            {% endfor %}
+
+          </nav>
+        </div>
+
+        <!-- NAVIGATION CENTER LINKS - No dropdown - START -->
+
+        {% for nav-item in site.data.navbar.[page.lang].nav-items-no-dropdown%}
+            <a href="/{{page.lang}}/{{nav-item.url}}" class="nav-link w-nav-link">{{nav-item.name}}</a>
+        {% endfor %}
+
+        <!-- <a href="/{{page.lang}}/grading" class="nav-link w-nav-link">Diamond Grading</a>
+        <a href="{%post_url 2020-11-15-Diamond_4Cs%}" class="nav-link w-nav-link">Diamond 4 C<span class="lowercase-span">s</span></a> -->
+
+        <!-- NAVIGATION CENTER LINKS - No dropdown - END -->
+
+        <a href="{% if page.lang == 'en' %}/el/{{ page.ref }}{% else %}/en/{{ page.ref }}{% endif %}" class="nav-icon-link hidden-desktop w-inline-block">
+          <div class="nav-icon text-icon"> {{ site.data.navbar.[page.lang].lang-switcher }}</div>
+        </a>
+
+        <a href="#" class="nav-icon-link hidden-desktop w-inline-block"><img src="/images/icon-user.svg" loading="lazy" alt="" class="nav-icon"></a>
+      </nav>
+
+
+      <div class="navigation-side-plain right">
+        <a href="#!/~/search" class="nav-icon-link w-inline-block"><img src="/images/icon-search.svg" loading="lazy" alt="" class="nav-icon"></a>
+        <a href="#!/~/cart" class="nav-icon-link w-inline-block"><img src="/images/icon-bag.svg" loading="lazy" alt="" class="nav-icon"></a>
+        <div class="menu-button-circle w-nav-button"><img src="https://uploads-ssl.webflow.com/5efe5a2a83f88e7f8e9be9df/5efe5a2a83f88e77ae9be9f1_menu-icon.png" width="22" alt="" class="menu-icon"></div>
+      </div>
+    </div>
+  </div>
