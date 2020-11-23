@@ -5,27 +5,27 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: _data/navbar.yml
+  label: Navigation Menu
+  match: "**/*"
+- type: document
   path: _config.yml
   label: Company Info
-  match: "**/*"
 - type: document
   path: _data/faq.yml
   label: FAQ
-- type: directory
-  path: _data
-  label: All Text Content
-  create: all
-  match: "*.yml"
-  new_doc_ext: yml
 - type: directory
   path: _data/text-pages
   label: Text-only Pages
   create: all
   match: "*.md"
   new_doc_ext: md
-- type: jekyll-pages
-  label: Not Ready
+- type: directory
+  path: _data
+  label: All Text Content
   create: all
+  match: "*.yml"
+  new_doc_ext: yml
 - type: jekyll-posts
   label: Posts
   create: all
