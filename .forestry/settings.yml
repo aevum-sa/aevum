@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: _data
+  label: All Text Content
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
 - type: jekyll-pages
   label: Not Ready
   create: all
