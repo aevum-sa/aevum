@@ -15,3 +15,20 @@ en:
       url: #
     - name: Precious Metals
       url: #
+el: 
+  hero-buttons:
+    - name: Shop Online
+      url: store
+      class: button button--filled w-button
+    - name: Diamond 4Cs
+      url: diamond-4cs
+      class: button w-button
+  wholesale:
+    title: wholesale
+    buttons: 
+    - name: Diamonds
+      url: #
+    - name: Jewelry
+      url: #
+    - name: Precious Metals
+      url: #
