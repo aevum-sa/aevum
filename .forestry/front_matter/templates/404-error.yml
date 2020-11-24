@@ -16,6 +16,8 @@ fields:
     - type: text
       name: p
       label: Paragraph
+    config:
+      labelField: p
 - type: field_group
   name: el
   label: Greek
@@ -30,6 +32,10 @@ fields:
     - type: textarea
       name: p
       label: Paragraph
+      config:
+        wysiwyg: true
+        schema:
+          format: html
 pages:
 - _data/404.yml
 - _data/404.yml
