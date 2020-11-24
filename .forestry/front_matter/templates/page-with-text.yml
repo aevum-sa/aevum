@@ -34,12 +34,3 @@ fields:
     example, the ”Diamond 4Cs” page has a permanent link of ”/diamond-4cs” and can
     thus be visited at aevum.sa.com/en/diamond-4cs (or el/diamond-4cs in the Greek
     section).
-pages:
-- _data/text-pages/about-el.md
-- _data/text-pages/about-en.md
-- _data/text-pages/cooperation-el.md
-- _data/text-pages/cooperation-en.md
-- _data/text-pages/privacy-el.md
-- _data/text-pages/privacy-en.md
-- _data/text-pages/terms-el.md
-- _data/text-pages/terms-en.md

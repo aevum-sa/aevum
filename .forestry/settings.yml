@@ -4,12 +4,16 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _data/colors.yml
+  label: Colors
+  match: "**/*"
 - type: directory
   path: en
   label: English Text Pages
   create: documents
   match: "*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - page-with-text
 - type: document
