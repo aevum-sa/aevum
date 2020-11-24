@@ -3,7 +3,7 @@ en:
   col-2-1-title: Company
   col-2-1-links:
   - name: About us
-    url: ''
+    url: about
   - name: Cooperation
     url: ''
   col-2-2-title: Connect
