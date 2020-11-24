@@ -45,7 +45,7 @@ el:
   - name: Σχετικά
     url: about
   - name: Συνεργασία
-    url: ''
+    url: cooperation
   col-2-2-title: Connect
   col-2-2-links:
   - name: Facebook
