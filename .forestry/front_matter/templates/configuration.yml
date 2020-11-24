@@ -4,52 +4,60 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Website Main Title
+  description: 'This will be shown in Google Search result and as the description
+    in the visitor’s browser window. It will be shown before the page name, as such:
+    “Website title | Page Title”'
 - type: text
   name: description
-  label: description
+  label: Website Description
+  description: This will be shown in Google Search results under the website/page
+    title.
 - type: field_group
   name: company-name
-  label: company-name
+  label: Company Name
   fields:
   - type: text
     name: en
-    label: en
+    label: English
   - type: text
     name: el
-    label: el
+    label: Greek
 - type: text
   name: email
-  label: email
+  label: Email
 - type: text
   name: phone
-  label: phone
+  label: Phone
 - type: field_group
   name: address
-  label: address
+  label: Address
   fields:
   - type: text
     name: en
-    label: en
+    label: English
   - type: text
     name: el
-    label: el
+    label: Greek
 - type: field_group
   name: opening-hours
-  label: opening-hours
+  label: Opening Hours
   fields:
   - type: text
     name: en
-    label: en
+    label: English
   - type: text
     name: el
-    label: el
+    label: Greek
 - type: text
   name: markdown
   label: markdown
+  hidden: true
 - type: text
   name: permalink
   label: permalink
+  hidden: true
 - type: list
   name: exclude
   label: exclude
+  hidden: true
