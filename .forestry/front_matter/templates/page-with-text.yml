@@ -31,4 +31,5 @@ fields:
     thus be visited at aevum.sa.com/en/diamond-4cs (or el/diamond-4cs in the Greek
     section).
 pages:
+- _data/text-pages/about-el.md
 - _data/text-pages/cooperation-en.md
