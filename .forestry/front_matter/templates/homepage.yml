@@ -29,15 +29,15 @@ fields:
       label: Section Title
     - type: field_group_list
       name: buttons
-      label: buttons
+      label: Buttons
       fields:
       - type: text
         name: name
-        label: name
+        label: Button Text
       - type: text
         name: url
-        label: url
-      hidden: true
+        label: Button URL (link)
+      hidden: false
 - type: field_group
   name: el
   fields:
@@ -64,15 +64,15 @@ fields:
       label: title
     - type: field_group_list
       name: buttons
-      label: buttons
+      label: Buttons
       fields:
       - type: text
         name: name
-        label: name
+        label: Button Text
       - type: text
         name: url
-        label: url
-      hidden: true
+        label: Button URL (link)
+      hidden: false
   label: Greek
 pages:
 - _data/home.yml
