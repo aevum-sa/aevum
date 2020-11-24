@@ -9,6 +9,8 @@ fields:
   - type: text
     name: title
     label: Page Title
+    config:
+      required: true
   - type: field_group_list
     name: body
     label: Text (Paragraphs)
@@ -25,6 +27,8 @@ fields:
   - type: text
     name: title
     label: Page Title
+    config:
+      required: true
   - type: field_group_list
     name: body
     label: Text (Paragraphs)
