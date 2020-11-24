@@ -30,3 +30,5 @@ fields:
     - type: textarea
       name: p
       label: Paragraph
+pages:
+- _data/404.yml
