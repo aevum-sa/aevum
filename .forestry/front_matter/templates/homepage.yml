@@ -4,11 +4,11 @@ hide_body: true
 fields:
 - type: field_group
   name: en
-  label: en
+  label: English
   fields:
   - type: field_group_list
     name: hero-buttons
-    label: hero-buttons
+    label: Hero Section Buttons
     fields:
     - type: text
       name: name
@@ -19,13 +19,14 @@ fields:
     - type: text
       name: class
       label: class
+    description: The buttons in the first section of the website
   - type: field_group
     name: wholesale
-    label: wholesale
+    label: Wholesale Section
     fields:
     - type: text
       name: title
-      label: title
+      label: Section Title
     - type: field_group_list
       name: buttons
       label: buttons
@@ -36,6 +37,7 @@ fields:
       - type: text
         name: url
         label: url
+      hidden: true
 - type: field_group
   name: el
   label: el
