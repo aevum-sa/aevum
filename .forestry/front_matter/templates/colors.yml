@@ -1,0 +1,13 @@
+---
+label: Colors
+hide_body: true
+fields:
+- type: number
+  name: accent-color
+  label: accent-color
+- type: number
+  name: text-color
+  label: text-color
+- type: text
+  name: footer-bg-color
+  label: footer-bg-color
