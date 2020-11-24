@@ -39,7 +39,7 @@ sections:
   - page-with-text
 - type: directory
   path: el
-  label: "\U0001F1EC\U0001F1F7 Greek Pages"
+  label: "\U0001F1EC\U0001F1F7 Greek Text Pages"
   create: documents
   match: "*.md"
   templates:
