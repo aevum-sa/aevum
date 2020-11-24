@@ -1,0 +1,5 @@
+accent-color: #836012
+text-color: #202020
+footer-bg-color: #e2e2e2
+
+{{site.data.colors.accent-color}}

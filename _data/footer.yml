@@ -18,8 +18,6 @@ en:
   col-3-links:
   - name: Contact us
     url: contact
-  - name: Payment Options
-    url: ''
   - name: FAQ
     url: faq
   - name: Wholesale
@@ -58,8 +56,6 @@ el:
   col-3-links:
   - name: Επικοινωνία
     url: contact
-  - name: Τρόποι πληρωμής
-    url: ''
   - name: Συχνές ερωτήσεις
     url: faq
   - name: Χονδρική

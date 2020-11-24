@@ -640,7 +640,7 @@ blockquote {
 
 .nav-link.w--current {
   box-shadow: 0 2px 0 0 #000;
-  color: #836012;
+  color: {{site.data.colors.accent-color}};
 }
 
 .nav-link.nav-dropdown {
@@ -667,7 +667,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #836012;
+  color: {{site.data.colors.accent-color}};
   font-size: 18px;
   font-weight: 400;
   text-align: center;
@@ -1201,7 +1201,7 @@ blockquote {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: 'Lack line', sans-serif;
-  color: #836012;
+  color: {{site.data.colors.accent-color}};
   font-size: 2.5em;
   text-align: center;
 }
@@ -1291,7 +1291,7 @@ blockquote {
 .see-more-link {
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
-  color: #836012;
+  color: {{site.data.colors.accent-color}};
   font-size: 18px;
   font-weight: 700;
 }
@@ -1948,7 +1948,7 @@ blockquote {
     display: none;
     padding-top: 30px;
     padding-bottom: 40px;
-    border-bottom: 2px solid #836012;
+    border-bottom: 2px solid {{site.data.colors.accent-color}};
     background-color: #fff;
   }
 
@@ -2826,11 +2826,11 @@ blockquote {
   }
 
   .faq-plus {
-    background-color: #836012;
+    background-color: {{site.data.colors.accent-color}};
   }
 
   .faq-plus-l {
-    background-color: #836012;
+    background-color: {{site.data.colors.accent-color}};
   }
 
   .text-wrap {
