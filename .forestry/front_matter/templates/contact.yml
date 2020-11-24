@@ -1,0 +1,68 @@
+---
+label: Contact
+hide_body: true
+fields:
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: field_group
+    name: contact-form
+    label: contact-form
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: email
+      label: email
+    - type: text
+      name: phone
+      label: phone
+    - type: text
+      name: message
+      label: message
+    - type: text
+      name: button-text
+      label: button-text
+    - type: text
+      name: success
+      label: success
+    - type: textarea
+      name: error
+      label: error
+- type: field_group
+  name: el
+  label: el
+  fields:
+  - type: field_group
+    name: contact-form
+    label: contact-form
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: email
+      label: email
+    - type: text
+      name: phone
+      label: phone
+    - type: text
+      name: message
+      label: message
+    - type: text
+      name: button-text
+      label: button-text
+    - type: text
+      name: success
+      label: success
+    - type: textarea
+      name: error
+      label: error
