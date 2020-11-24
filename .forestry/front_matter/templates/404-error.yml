@@ -4,29 +4,29 @@ hide_body: true
 fields:
 - type: field_group
   name: en
-  label: en
+  label: English
   fields:
   - type: text
     name: title
-    label: title
+    label: Page Title
   - type: field_group_list
     name: body
-    label: body
+    label: Text (Paragraphs)
     fields:
     - type: text
       name: p
-      label: p
+      label: Paragraph
 - type: field_group
   name: el
-  label: el
+  label: Greek
   fields:
   - type: text
     name: title
-    label: title
+    label: Page Title
   - type: field_group_list
     name: body
-    label: body
+    label: Text (Paragraphs)
     fields:
     - type: textarea
       name: p
-      label: p
+      label: Paragraph
