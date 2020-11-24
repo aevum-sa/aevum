@@ -21,11 +21,9 @@ en:
       του email σας. Εάν η καταχώρηση του email είναι σωστή παρακαλούμε όπως επικοινωνήσετε
       μαζί μας είτε στο τηλέφωνο 210 322 7148 είτε στο email CONTACT@AEVUM-SA.COM.
   - question: Can I reserve an item without paying?
-    answer: Δεν υπάρχει η δυνατότητα κράτησης των προϊόντων χωρίς να γίνει η σχετική
-      πληρωμή.
+    answer: It’s not possible to reserve an item without the relevant desposit.
   - question: What are the shipping costs?
-    answer: Τα έξοδα αποστολής για τις εγχώριες αποστολές είναι 3€ ανεξαρτήτως περιοχής
-      και για το εξωτερικό 14€.
+    answer: Shipping costs for addresses in Greece are 3 € — regardless of the exact delivery area — and 14 € for addresses outside of Greece.
   - question: How can I pick my order up from the store?
     answer: Κατά την ολοκλήρωση της παραγγελίας πατήστε "Παραλαβή" αντί για "Αποστολή",
       αυτόματα θα λάβετε ένα σχετικό email με την επιβεβαίωση της παραγγελίας και
@@ -34,16 +32,16 @@ en:
       να έρθετε να παραλάβετε την παραγγελία σας εντός του ωραρίου που αναγράφεται
       στη σελίδα μας.
   - question: Is it possible to get a refund?
-    answer: Δεν μπορεί να γίνει επιστροφή χρημάτων.
+    answer: We do not currently issue redunds.
   - question: What happens if I can’t pick my order up from the store after all?
     answer: Σε περίπτωση που δεν μπορείτε να παραλάβετε ο ίδιος την παραγγελία θα
       πρέπει να μας ενημερώσετε είτε τηλεφωνικά, είτε με email δίνοντάς μας τα στοιχεία
       του ατόμου που θα παραλάβει, για την ασφαλή παράδοση της παραγγελίας και προς
       αποφυγή λαθών.
   - question: Is it possible to return an order?
-    answer: Δεν υπάρχει η δυνατότητα επιστροφής της παραγγελίας.
+    answer: You cannot return your order.
   - question: Can you ship to areas outside of Greece?
-    answer: Αποστολές γίνονται και εκτός Ελλάδας ανεξαρτήτως χώρας.
+    answer: We can ship to every country in the world.
   - question: What’s the point of Diamond Grading?
     answer: Η Πιστοποίηση του Διαμαντιού είναι μια έγγραφη αναφορά στην οποία αναφέρονται
       όλα τα σημαντικά χαρακτηριστικά του όπως, τα καράτια, το χρώμα, η καθαρότητα,
@@ -53,9 +51,8 @@ en:
       τον μοναδικό αριθμό Πιστοποίησης που αναγράφεται σε αυτό να κάνετε διαδικτυακά
       μια εκ νέου αξιολόγηση και κοστολόγηση αυτού.
   - question: I have a piece of diamond jewelry that I don’t want. Can I sell it to you?
-    answer: Εάν έχετε κάποιο διαμαντένιο κόσμημα ή πολύτιμο μέταλλο υψηλής ποιότητας
-      που δεν το θέλετε μην διστάσετε να επικοινωνήσετε μαζί μας! Μπορούμε να σας
-      το μετατρέψουμε σε χρήματα!
+    answer: If you have a piece of diamond jewelry or precious metal of high value that you don’t want, 
+      don’t hesitate to get in touch with us. We can turn it into money!
 
 el:
   title: Συχνές Ερωτήσεις
