@@ -1,0 +1,56 @@
+---
+label: Diamond Grading
+hide_body: true
+fields:
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: textarea
+    name: intro
+    label: intro
+  - type: textarea
+    name: intro-note
+    label: intro-note
+  - type: field_group
+    name: process
+    label: process
+    fields:
+    - type: textarea
+      name: step-1
+      label: step-1
+    - type: textarea
+      name: step-2
+      label: step-2
+    - type: textarea
+      name: step-3
+      label: step-3
+    - type: textarea
+      name: step-4
+      label: step-4
+- type: field_group
+  name: el
+  label: el
+  fields:
+  - type: textarea
+    name: intro
+    label: intro
+  - type: textarea
+    name: intro-note
+    label: intro-note
+  - type: field_group
+    name: process
+    label: process
+    fields:
+    - type: textarea
+      name: step-1
+      label: step-1
+    - type: textarea
+      name: step-2
+      label: step-2
+    - type: textarea
+      name: step-3
+      label: step-3
+    - type: textarea
+      name: step-4
+      label: step-4
