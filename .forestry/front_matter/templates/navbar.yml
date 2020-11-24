@@ -54,3 +54,5 @@ fields:
         label: Link URL
       description: IF this link is supposed to have more links under it (expanding
         menu) add them here.
+pages:
+- _data/navbar.yml

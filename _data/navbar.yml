@@ -1,58 +1,63 @@
-en: 
+---
+en:
   lang-switcher: EN/EL
   center-nav-items:
-    - name: Store
-      dropdown-items: 
-        - name: SEE ALL
-          url: /store
-        - name: Rings
-          url: #
-        - name: Earrings
-          url: #
-        - name: Bracelets
-          url: #
-        - name: Necklaces
-          url: #
-        - name: Crosses
-          url: #
-    - name: Wholesale
-      dropdown-items: 
-        - name: Jewelry
-          url: wholesale/jewelry
-        - name: Gemstones
-          url: wholesale/gemstones
-        - name: Precious Metals
-          url: wholesale/metals
-    - name: Diamond&nbsp;Grading
-      url: grading
-    - name: Diamond 4 C<span class="lowercase-span">s</span>
-      url: diamond-4cs
-el: 
+  - name: Store
+    dropdown-items:
+    - name: SEE ALL
+      url: "/store"
+    - name: Rings
+      url: ''
+    - name: Earrings
+      url: ''
+    - name: Bracelets
+      url: ''
+    - name: Necklaces
+      url: ''
+    - name: Crosses
+      url: ''
+  - name: Wholesale
+    dropdown-items:
+    - name: Jewelry
+      url: wholesale/jewelry
+    - name: Gemstones
+      url: wholesale/gemstones
+    - name: Precious Metals
+      url: wholesale/metals
+  - name: Diamond&nbsp;Grading
+    url: grading
+    dropdown-items: []
+  - name: Diamond 4 C<span class="lowercase-span">s</span>
+    url: diamond-4cs
+    dropdown-items: []
+el:
   lang-switcher: EN/EL
   center-nav-items:
-    - name: Store
-      dropdown-items: 
-        - name: Όλα
-          url: /store
-        - name: Rings
-          url: #
-        - name: Earrings
-          url: #
-        - name: Bracelets
-          url: #
-        - name: Necklaces
-          url: #
-        - name: Crosses
-          url: #
-    - name: Χονδρικη
-      dropdown-items: 
-        - name: Κοσμήματα
-          url: wholesale/jewelry
-        - name: Διαμάντια
-          url: wholesale/gemstones
-        - name: Πολύτιμα μέταλλα
-          url: wholesale/metals
-    - name: Diamond&nbsp;Grading
-      url: grading
-    - name: Diamond 4 C<span class="lowercase-span">s</span>
-      url: diamond-4cs
+  - name: Store
+    dropdown-items:
+    - name: Όλα
+      url: "/store"
+    - name: Rings
+      url: ''
+    - name: Earrings
+      url: ''
+    - name: Bracelets
+      url: ''
+    - name: Necklaces
+      url: ''
+    - name: Crosses
+      url: ''
+  - name: Χονδρικη
+    dropdown-items:
+    - name: Κοσμήματα
+      url: wholesale/jewelry
+    - name: Διαμάντια
+      url: wholesale/gemstones
+    - name: Πολύτιμα μέταλλα
+      url: wholesale/metals
+  - name: Diamond&nbsp;Grading
+    url: grading
+    dropdown-items: []
+  - name: Diamond 4 C<span class="lowercase-span">s</span>
+    url: diamond-4cs
+    dropdown-items: []
