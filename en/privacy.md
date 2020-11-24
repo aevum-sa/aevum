@@ -4,6 +4,7 @@ title: Privacy Policy
 lang: en
 ref: privacy
 ---
+
 ## Owner and Data Controller
 **AEVUM Premium Trading S.A.**  
 Lekka 23-25, 105 62 Athens, Greece
@@ -13,7 +14,7 @@ Lekka 23-25, 105 62 Athens, Greece
 * **Email:** contact@aevum-sa.com
 * **Phone Number:** +30 210 322 7148
 
--------
+---
 
 ## Personal Information of Visitors
 **AEVUM Premium Trading S.A.** (hereafter “Aevum”, “we”, “us”) **does not collect any personally identifiable information** regarding the website’s Visitors (hereafter “Visitors” or “Users”) by default. We only collect what the Visitors knowingly choose to share with us, e.g.:
@@ -27,7 +28,7 @@ We **do not share**any of that information with third parties, without the conse
 
 Read on to learn more about the services we use to operate this website and provide our services to our Visitors. At the end of this document, you’ll find a short glossary in case some terms are unclear.
 
--------
+---
 
 ## Personal Data collected for the following purposes and using the following services:
 ### 1. Analytics
@@ -70,7 +71,7 @@ Any requests to exercise User rights can be directed to the Owner through the co
 ## Information Regarding Cookies
 Cookies are small sets of data that your device/browser saves when you visit our website for the first time. They are issued by **Google Inc.** (as described in the Analytics Section) and used for Analytics. That allows Google, and by extension us, to know how many times you've visited our website, but they do not allow us or Google to personally identify you. 
 
--------
+---
 
 ## Definitions and legal references
 ### Personal Data (or Data)
@@ -90,6 +91,6 @@ Information collected automatically through this Application (or third-party ser
 ### Legal information
 This privacy statement has been prepared based on provisions of multiple legislations, including Art. 13/14 of Regulation (EU) 2016/679 (General Data Protection Regulation). 
 
--------
+---
 
 *Latest Update: 1 November 2020*
