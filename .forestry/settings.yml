@@ -31,7 +31,7 @@ sections:
   label: Text pages
 - type: directory
   path: en
-  label: "\U0001F1FA\U0001F1F8 English Text Pages"
+  label: English Text Pages
   create: documents
   match: "*.md"
   new_doc_ext: md
@@ -39,11 +39,14 @@ sections:
   - page-with-text
 - type: directory
   path: el
-  label: "\U0001F1EC\U0001F1F7 Greek Text Pages"
+  label: Greek Text Pages
   create: documents
   match: "*.md"
   templates:
   - page-with-text
+- type: jekyll-posts
+  label: Posts
+  create: all
 - type: heading
   label: Designed Pages
 - type: document
@@ -58,9 +61,6 @@ sections:
 - type: document
   path: _data/404.yml
   label: 404 Error
-- type: jekyll-posts
-  label: Posts
-  create: all
 - type: directory
   path: _data/text-pages
   label: All Text Pages
@@ -80,12 +80,6 @@ sections:
   label: Metals
 - type: heading
   label: Other
-- type: directory
-  path: _data
-  label: All Text Content
-  create: all
-  match: "*.yml"
-  new_doc_ext: yml
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
