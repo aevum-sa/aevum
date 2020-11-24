@@ -66,3 +66,5 @@ fields:
     - type: textarea
       name: error
       label: error
+pages:
+- _data/contact.yml
