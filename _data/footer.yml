@@ -43,7 +43,7 @@ el:
   col-2-1-title: Εταιρεία
   col-2-1-links:
   - name: Σχετικά
-    url: ''
+    url: about
   - name: Συνεργασία
     url: ''
   col-2-2-title: Connect
