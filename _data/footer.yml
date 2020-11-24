@@ -65,9 +65,9 @@ el:
   - name: Χονδρική
     url: ''
   - name: Πολιτική απορρήτου
-    url: ''
+    url: privacy
   - name: Όροι χρήσης
-    url: ''
+    url: terms
   newsletter:
     title: Γραφτείτε στο Newsletter μας
     disclaimer: Ποτέ δεν θα μοιραστούμε την διεύθυνση σας με τρίτους και μπορείτε
