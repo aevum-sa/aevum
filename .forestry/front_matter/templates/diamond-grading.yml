@@ -4,53 +4,56 @@ hide_body: true
 fields:
 - type: field_group
   name: en
-  label: en
   fields:
   - type: textarea
     name: intro
-    label: intro
+    label: Introduction
+    description: The text in the first section, next to the picture.
   - type: textarea
     name: intro-note
-    label: intro-note
+    label: Introduction Note (Small Text)
+    description: The small text underneath the introduction.
   - type: field_group
     name: process
-    label: process
+    label: The Process
     fields:
     - type: textarea
       name: step-1
-      label: step-1
+      label: Step 1
     - type: textarea
       name: step-2
-      label: step-2
+      label: Step 2
     - type: textarea
       name: step-3
-      label: step-3
+      label: Step 3
     - type: textarea
       name: step-4
-      label: step-4
+      label: Step 4
+  label: English
 - type: field_group
   name: el
-  label: el
+  label: Greek
   fields:
   - type: textarea
     name: intro
-    label: intro
+    label: Introduction
+    description: The text in the first section, next to the picture.
   - type: textarea
     name: intro-note
-    label: intro-note
+    label: Introduction Note (Small Text)
   - type: field_group
     name: process
-    label: process
+    label: The Process
     fields:
     - type: textarea
       name: step-1
-      label: step-1
+      label: Step 1
     - type: textarea
       name: step-2
-      label: step-2
+      label: Step 2
     - type: textarea
       name: step-3
-      label: step-3
+      label: Step 3
     - type: textarea
       name: step-4
-      label: step-4
+      label: Step 4
