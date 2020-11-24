@@ -4,30 +4,30 @@ hide_body: true
 fields:
 - type: field_group
   name: en
-  label: en
+  label: English
   fields:
   - type: field_group
     name: contact-form
-    label: contact-form
+    label: Contact Form
     fields:
     - type: text
       name: title
-      label: title
+      label: Form Title
     - type: text
       name: name
-      label: name
+      label: Name Field
     - type: text
       name: email
-      label: email
+      label: Email Field
     - type: text
       name: phone
-      label: phone
+      label: Phone Field
     - type: text
       name: message
-      label: message
+      label: Message Field
     - type: text
       name: button-text
-      label: button-text
+      label: Submission Button Text
     - type: text
       name: success
       label: success
@@ -36,30 +36,30 @@ fields:
       label: error
 - type: field_group
   name: el
-  label: el
+  label: Greek
   fields:
   - type: field_group
     name: contact-form
-    label: contact-form
+    label: Contact Form
     fields:
     - type: text
       name: title
-      label: title
+      label: Form Title
     - type: text
       name: name
-      label: name
+      label: Name Field
     - type: text
       name: email
-      label: email
+      label: Email Field
     - type: text
       name: phone
-      label: phone
+      label: Phone Field
     - type: text
       name: message
-      label: message
+      label: Message Field
     - type: text
       name: button-text
-      label: button-text
+      label: Submission Button Text
     - type: text
       name: success
       label: success
