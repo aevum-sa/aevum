@@ -1,0 +1,72 @@
+---
+label: Homepage
+hide_body: true
+fields:
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: field_group_list
+    name: hero-buttons
+    label: hero-buttons
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: class
+      label: class
+  - type: field_group
+    name: wholesale
+    label: wholesale
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: field_group_list
+      name: buttons
+      label: buttons
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: text
+        name: url
+        label: url
+- type: field_group
+  name: el
+  label: el
+  fields:
+  - type: field_group_list
+    name: hero-buttons
+    label: hero-buttons
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: class
+      label: class
+  - type: field_group
+    name: wholesale
+    label: wholesale
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: field_group_list
+      name: buttons
+      label: buttons
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: text
+        name: url
+        label: url
