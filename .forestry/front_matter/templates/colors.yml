@@ -2,14 +2,20 @@
 label: Colors
 hide_body: true
 fields:
-- type: number
+- type: color
   name: accent-color
-  label: accent-color
-- type: number
+  label: Accent Color
+  config:
+    color_format: Hex
+- type: color
   name: text-color
-  label: text-color
-- type: text
-  name: footer-bg-color
-  label: footer-bg-color
+  label: Text Color
+  config:
+    color_format: Hex
+- type: color
+  name: ooter-bg-color
+  label: Footer Background Color
+  config:
+    color_format: Hex
 pages:
 - _data/colors.yml
