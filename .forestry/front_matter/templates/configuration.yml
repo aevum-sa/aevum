@@ -1,0 +1,55 @@
+---
+label: Configuration
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: field_group
+  name: company-name
+  label: company-name
+  fields:
+  - type: text
+    name: en
+    label: en
+  - type: text
+    name: el
+    label: el
+- type: text
+  name: email
+  label: email
+- type: text
+  name: phone
+  label: phone
+- type: field_group
+  name: address
+  label: address
+  fields:
+  - type: text
+    name: en
+    label: en
+  - type: text
+    name: el
+    label: el
+- type: field_group
+  name: opening-hours
+  label: opening-hours
+  fields:
+  - type: text
+    name: en
+    label: en
+  - type: text
+    name: el
+    label: el
+- type: text
+  name: markdown
+  label: markdown
+- type: text
+  name: permalink
+  label: permalink
+- type: list
+  name: exclude
+  label: exclude
