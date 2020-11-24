@@ -1,5 +1,5 @@
 ---
-label: Page with text
+label: Text Page (e.g. about us)
 hide_body: false
 fields:
 - type: text

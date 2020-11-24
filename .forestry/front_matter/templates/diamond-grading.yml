@@ -1,5 +1,5 @@
 ---
-label: Diamond Grading
+label: X-DO NOT USE - Diamond Grading
 hide_body: true
 fields:
 - type: field_group
@@ -9,10 +9,18 @@ fields:
     name: intro
     label: Introduction
     description: The text in the first section, next to the picture.
+    config:
+      wysiwyg: true
+      schema:
+        format: html
   - type: textarea
     name: intro-note
     label: Introduction Note (Small Text)
     description: The small text underneath the introduction.
+    config:
+      wysiwyg: true
+      schema:
+        format: html
   - type: field_group
     name: process
     label: The Process
@@ -20,15 +28,31 @@ fields:
     - type: textarea
       name: step-1
       label: Step 1
+      config:
+      wysiwyg: true
+      schema:
+        format: html
     - type: textarea
       name: step-2
       label: Step 2
+      config:
+      wysiwyg: true
+      schema:
+        format: html
     - type: textarea
       name: step-3
       label: Step 3
+      config:
+      wysiwyg: true
+      schema:
+        format: html
     - type: textarea
       name: step-4
       label: Step 4
+      config:
+      wysiwyg: true
+      schema:
+        format: html
   label: English
 - type: field_group
   name: el
@@ -38,9 +62,17 @@ fields:
     name: intro
     label: Introduction
     description: The text in the first section, next to the picture.
+    config:
+      wysiwyg: true
+      schema:
+        format: html
   - type: textarea
     name: intro-note
     label: Introduction Note (Small Text)
+    config:
+      wysiwyg: true
+      schema:
+        format: html
   - type: field_group
     name: process
     label: The Process
@@ -48,14 +80,30 @@ fields:
     - type: textarea
       name: step-1
       label: Step 1
+      config:
+      wysiwyg: true
+      schema:
+        format: html
     - type: textarea
       name: step-2
       label: Step 2
+      config:
+      wysiwyg: true
+      schema:
+        format: html
     - type: textarea
       name: step-3
       label: Step 3
+      config:
+      wysiwyg: true
+      schema:
+        format: html
     - type: textarea
       name: step-4
       label: Step 4
+      config:
+      wysiwyg: true
+      schema:
+        format: html
 pages:
 - _data/grading.yml

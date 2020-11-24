@@ -3,7 +3,7 @@ en:
   lang-switcher: EN/EL
   center-nav-items:
   - name: Store
-    dropdown-items:
+    dropdown-items: 
     - name: SEE ALL
       url: "/store"
     - name: Rings
@@ -26,10 +26,8 @@ en:
       url: wholesale/metals
   - name: Diamond&nbsp;Grading
     url: grading
-    dropdown-items: []
   - name: Diamond 4 C<span class="lowercase-span">s</span>
     url: diamond-4cs
-    dropdown-items: []
 el:
   lang-switcher: EN/EL
   center-nav-items:

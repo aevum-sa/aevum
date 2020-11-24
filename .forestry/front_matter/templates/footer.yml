@@ -1,5 +1,5 @@
 ---
-label: Footer
+label: X-DO NOT USE - Footer
 hide_body: true
 fields:
 - type: field_group
@@ -59,6 +59,10 @@ fields:
       name: disclaimer
       label: Disclaimer
       description: 'Legal disclaimer: you agree to our privacy policy etc.'
+      config:
+      wysiwyg: true
+      schema:
+        format: html
     - type: text
       name: button
       label: Button ”Text”
@@ -124,17 +128,23 @@ fields:
       label: url
   - type: field_group
     name: newsletter
-    label: Newsletter Column
+    label: Newsletter Section (Last Column)
     fields:
     - type: text
       name: title
-      label: title
+      label: Column Title
     - type: textarea
       name: disclaimer
-      label: disclaimer
+      label: Disclaimer
+      description: 'Legal disclaimer: you agree to our privacy policy etc.'
+      config:
+      wysiwyg: true
+      schema:
+        format: html
     - type: text
       name: button
-      label: button
+      label: Button ”Text”
+      description: Better to leave the arrow ”&gt;”
     - type: textarea
       name: error-message
       label: error-message
@@ -143,9 +153,10 @@ fields:
       label: success-message
     - type: text
       name: label
-      label: label
+      label: Email field label
     - type: text
       name: placeholder
-      label: placeholder
+      label: Email Placeholder
+      description: For example “Your email”
 pages:
 - _data/footer.yml

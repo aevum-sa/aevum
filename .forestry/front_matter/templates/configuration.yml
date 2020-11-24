@@ -1,5 +1,5 @@
 ---
-label: Configuration
+label: X-DO NOT USE - Configuration
 hide_body: true
 fields:
 - type: text
@@ -33,22 +33,38 @@ fields:
   name: address
   label: Address
   fields:
-  - type: text
+  - type: textarea
     name: en
     label: English
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: html
+  - type: textarea
     name: el
     label: Greek
+    config:
+      wysiwyg: true
+      schema:
+        format: html
 - type: field_group
   name: opening-hours
   label: Opening Hours
   fields:
-  - type: text
+  - type: textarea
     name: en
     label: English
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: html
+  - type: textarea
     name: el
     label: Greek
+    config:
+      wysiwyg: true
+      schema:
+        format: html
 - type: text
   name: markdown
   label: markdown
