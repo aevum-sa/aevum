@@ -5,12 +5,28 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Page Title
 - type: text
   name: lang
-  label: lang
+  label: Language
+  description: Either ”<strong>en</strong>” for English or ”<strong>el</strong>” for
+    Greek.
 - type: text
   name: ref
-  label: ref
+  label: Reference
+  description: A reference name for the page. Required for the multilingual functionality
+    to work. Two pages with a different language but the same reference will be understood
+    by the system to be equivalent in the each language.
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permanent Link
+  description: If you want a page a page to have a ”permanent link” of your choosing,
+    instead of an automatically generated one, type it here in this format:<br><br>/link-name<br><br>For
+    example, the ”Diamond 4Cs” page has a permanent link of ”/diamond-4cs” and can
+    thus be visited at aevum.sa.com/en/diamond-4cs (or el/diamond-4cs in the Greek
+    section).
