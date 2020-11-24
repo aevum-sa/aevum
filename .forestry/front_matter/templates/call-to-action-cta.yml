@@ -56,3 +56,5 @@ fields:
     - type: text
       name: url
       label: Button URL (link)
+pages:
+- _data/cta.yml
