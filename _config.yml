@@ -1,41 +1,24 @@
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, restart the server process.
-
-# Site settings
-# If you look in the HTML files, you will see them accessed via
-# {{ site.title }}, {{ site.email }}, and so on.
+---
 title: Aevum
-description: >- # this means to ignore newlines until the next point
-  Buy Jewelry, Diamonds, Gems, Gold & Silver online or offline 
-  — We do wholesale too!
-
-# Company info
-company-name: 
+description: Buy Jewelry, Diamonds, Gems, Gold & Silver online or offline  — We do
+  wholesale too!
+company-name:
   en: AEVUM Premium Trading S.A.
   el: AEVUM Premium Trading Α.Ε.
 email: contact@aevum-sa.com
-phone: +30 210 322 7148
-address: 
+phone: "+30 210 322 7148"
+address:
   en: Lekka 23-25,<br>105 62 Athens, Greece
   el: Λέκκα 23-25,<br>105 62 Αθήνα
-opening-hours: 
-  en: "<strong>Mon – Fri</strong>: 09:00 – 17:00<br><strong>Saturday</strong>: 10:00 – 14:00"
-  el: "<strong>Δευ — Παρ</strong>: 09:00 – 17:00<br><strong>Σάββατο</strong>: 10:00 – 14:00"
-
-# Build settings
+opening-hours:
+  en: "<strong>Mon – Fri</strong>: 09:00 – 17:00<br><strong>Saturday</strong>: 10:00
+    – 14:00"
+  el: "<strong>Δευ — Παρ</strong>: 09:00 – 17:00<br><strong>Σάββατο</strong>: 10:00
+    – 14:00"
 markdown: kramdown
-
 permalink: pretty
-
 exclude:
- - Gemfile
- - Gemfile.lock
- - README.md
- - .DS_Store
-
-# Access values inside YML files within the _text folder using
-# {{{{ item.VALUE }}FILENAME}}
-# For example, to call upon frontmatter within text/homepage
-# {% for item in site.text.homepage %}
-# {{ item.VALUE }} where VALUE is frontmatter wihin YML file
-# or just {{site.text.homepage.VALUE }} (I THINK???)
+- Gemfile
+- Gemfile.lock
+- README.md
+- ".DS_Store"
