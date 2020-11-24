@@ -43,7 +43,7 @@ sections:
   create: all
 - type: directory
   path: _data/text-pages
-  label: Text Pages
+  label: All Text Pages
   create: all
   match: "*.md"
   new_doc_ext: md
