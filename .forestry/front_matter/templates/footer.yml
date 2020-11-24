@@ -59,7 +59,7 @@ fields:
       name: disclaimer
       label: Disclaimer
       description: 'Legal disclaimer: you agree to our privacy policy etc.'
-      config:
+      config: 
       wysiwyg: true
       schema:
         format: html
@@ -137,7 +137,7 @@ fields:
       name: disclaimer
       label: Disclaimer
       description: 'Legal disclaimer: you agree to our privacy policy etc.'
-      config:
+      config: 
       wysiwyg: true
       schema:
         format: html

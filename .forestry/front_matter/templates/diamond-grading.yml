@@ -28,28 +28,28 @@ fields:
     - type: textarea
       name: step-1
       label: Step 1
-      config:
+      config: 
       wysiwyg: true
       schema:
         format: html
     - type: textarea
       name: step-2
       label: Step 2
-      config:
+      config: 
       wysiwyg: true
       schema:
         format: html
     - type: textarea
       name: step-3
       label: Step 3
-      config:
+      config: 
       wysiwyg: true
       schema:
         format: html
     - type: textarea
       name: step-4
       label: Step 4
-      config:
+      config: 
       wysiwyg: true
       schema:
         format: html
@@ -80,28 +80,28 @@ fields:
     - type: textarea
       name: step-1
       label: Step 1
-      config:
+      config: 
       wysiwyg: true
       schema:
         format: html
     - type: textarea
       name: step-2
       label: Step 2
-      config:
+      config: 
       wysiwyg: true
       schema:
         format: html
     - type: textarea
       name: step-3
       label: Step 3
-      config:
+      config: 
       wysiwyg: true
       schema:
         format: html
     - type: textarea
       name: step-4
       label: Step 4
-      config:
+      config: 
       wysiwyg: true
       schema:
         format: html
