@@ -27,7 +27,7 @@ en:
   - name: Privacy Policy
     url: privacy
   - name: Terms of Use
-    url: ''
+    url: terms
   newsletter:
     title: Join our Newsletter
     disclaimer: We will never share your email address with third parties and you
