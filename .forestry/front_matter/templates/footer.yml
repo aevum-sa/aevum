@@ -4,14 +4,14 @@ hide_body: true
 fields:
 - type: field_group
   name: en
-  label: en
+  label: English
   fields:
   - type: text
     name: col-2-1-title
-    label: col-2-1-title
+    label: Title / Column 2 - Top
   - type: field_group_list
     name: col-2-1-links
-    label: col-2-1-links
+    label: Links / Column 2 - Top
     fields:
     - type: text
       name: name
@@ -21,10 +21,10 @@ fields:
       label: url
   - type: text
     name: col-2-2-title
-    label: col-2-2-title
+    label: Title / Column 2 - Bottom
   - type: field_group_list
     name: col-2-2-links
-    label: col-2-2-links
+    label: Links / Column 2 - Bottom
     fields:
     - type: text
       name: name
@@ -37,10 +37,10 @@ fields:
       label: image
   - type: text
     name: col-3-title
-    label: col-3-title
+    label: Title / Column 3
   - type: field_group_list
     name: col-3-links
-    label: col-3-links
+    label: Links / Column 3
     fields:
     - type: text
       name: name
@@ -50,17 +50,19 @@ fields:
       label: url
   - type: field_group
     name: newsletter
-    label: newsletter
+    label: Newsletter Section (Last Column)
     fields:
     - type: text
       name: title
-      label: title
+      label: Column Title
     - type: textarea
       name: disclaimer
-      label: disclaimer
+      label: Disclaimer
+      description: 'Legal disclaimer: you agree to our privacy policy etc.'
     - type: text
       name: button
-      label: button
+      label: Button ”Text”
+      description: Better to leave the arrow ”&gt;”
     - type: textarea
       name: error-message
       label: error-message
@@ -69,20 +71,21 @@ fields:
       label: success-message
     - type: text
       name: label
-      label: label
+      label: Email field label
     - type: text
       name: placeholder
-      label: placeholder
+      label: Email Placeholder
+      description: For example “Your email”
 - type: field_group
   name: el
-  label: el
+  label: Greek
   fields:
   - type: text
     name: col-2-1-title
-    label: col-2-1-title
+    label: Title / Column 2 - Top
   - type: field_group_list
     name: col-2-1-links
-    label: col-2-1-links
+    label: Links / Column 2 - Top
     fields:
     - type: text
       name: name
@@ -92,10 +95,10 @@ fields:
       label: url
   - type: text
     name: col-2-2-title
-    label: col-2-2-title
+    label: Title / Column 2 - Bottom
   - type: field_group_list
     name: col-2-2-links
-    label: col-2-2-links
+    label: Links / Column 2 - Bottom
     fields:
     - type: text
       name: name
@@ -108,10 +111,10 @@ fields:
       label: image
   - type: text
     name: col-3-title
-    label: col-3-title
+    label: Title / Column 3
   - type: field_group_list
     name: col-3-links
-    label: col-3-links
+    label: Links / Column 3
     fields:
     - type: text
       name: name
@@ -121,7 +124,7 @@ fields:
       label: url
   - type: field_group
     name: newsletter
-    label: newsletter
+    label: Newsletter Column
     fields:
     - type: text
       name: title
