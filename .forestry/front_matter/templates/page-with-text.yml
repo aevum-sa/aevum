@@ -10,13 +10,14 @@ fields:
   name: title
   label: Page Title
 - type: select
-  options: 
-    - en
-    - el
   name: lang
   label: Language
   description: Either ”<strong>en</strong>” for English or ”<strong>el</strong>” for
     Greek.
+  config:
+    options: 
+      - en
+      - el
 - type: text
   name: ref
   label: Reference
