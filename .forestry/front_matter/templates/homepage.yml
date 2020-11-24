@@ -74,3 +74,5 @@ fields:
         label: url
       hidden: true
   label: Greek
+pages:
+- _data/home.yml

@@ -1,34 +1,35 @@
-en: 
+---
+en:
   hero-buttons:
-    - name: Shop Online
-      url: store
-      class: button button--filled w-button
-    - name: Diamond 4Cs
-      url: diamond-4cs
-      class: button w-button
+  - name: Shop Online
+    url: store
+    class: button button--filled w-button
+  - name: Diamond 4Cs
+    url: diamond-4cs
+    class: button w-button
   wholesale:
     title: wholesale
-    buttons: 
+    buttons:
     - name: Diamonds
-      url: #
+      url: ''
     - name: Jewelry
-      url: #
+      url: ''
     - name: Precious Metals
-      url: #
-el: 
+      url: ''
+el:
   hero-buttons:
-    - name: Shop Online
-      url: store
-      class: button button--filled w-button
-    - name: Diamond 4Cs
-      url: diamond-4cs
-      class: button w-button
+  - name: Shop Online
+    url: store
+    class: button button--filled w-button
+  - name: Diamond 4Cs
+    url: diamond-4cs
+    class: button w-button
   wholesale:
     title: wholesale
-    buttons: 
+    buttons:
     - name: Diamonds
-      url: #
+      url: ''
     - name: Jewelry
-      url: #
+      url: ''
     - name: Precious Metals
-      url: #
+      url: ''
