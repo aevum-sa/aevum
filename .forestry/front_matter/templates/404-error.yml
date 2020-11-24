@@ -1,0 +1,32 @@
+---
+label: 404 Error
+hide_body: true
+fields:
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: body
+    label: body
+    fields:
+    - type: text
+      name: p
+      label: p
+- type: field_group
+  name: el
+  label: el
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: body
+    label: body
+    fields:
+    - type: textarea
+      name: p
+      label: p
