@@ -1977,11 +1977,9 @@ blockquote {
     backdrop-filter: blur(16px);
   }
   .navbar.blur {  
-    backdrop-filter: blur(16px);
-  }
-
-  .navbar.blur {
     background-color: #fff;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
   }
 
   .nav-icon-link {
