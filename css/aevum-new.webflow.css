@@ -726,9 +726,6 @@ blockquote {
   background-color: hsla(0, 0%, 100%, 0.85);
 }
 
-.navbar.blur {
-  background-color: hsla(0, 0%, 100%, 0.8);
-}
 
 .nav-icon-link {
   padding: 10px 15px;
@@ -1977,7 +1974,7 @@ blockquote {
     backdrop-filter: blur(16px);
   }
   .navbar.blur {  
-    background-color: #fff;
+    background-color: hsla(0, 0%, 100%, 0.8);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
   }
