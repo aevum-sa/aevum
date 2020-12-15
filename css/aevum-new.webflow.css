@@ -1966,19 +1966,20 @@ blockquote {
   }
 
   .blur {  
-    background-color: hsla(0, 0%, 100%, 0.8);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
+    -x-backdrop-filter: blur(16px);
   }
   .nav-menu-center.blur {  
-    background-color: hsla(0, 0%, 100%, 0.8);
     backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    -x-backdrop-filter: blur(16px);
   }
 
   .navbar.blur {  
-    background-color: hsla(0, 0%, 100%, 0.8);
     backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    -x-backdrop-filter: blur(16px);
   }
 
   .nav-icon-link {
