@@ -1968,9 +1968,9 @@ blockquote {
   .blur {  
     background-color: hsla(0, 0%, 100%, 0.8);
     backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
   }
-  /* .nav-menu-center.blur {  
+  .nav-menu-center.blur {  
     background-color: hsla(0, 0%, 100%, 0.8);
     backdrop-filter: blur(16px);
   }
@@ -1979,7 +1979,7 @@ blockquote {
     background-color: hsla(0, 0%, 100%, 0.8);
     backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  } */
+  }
 
   .nav-icon-link {
     padding: 10px 15px;
