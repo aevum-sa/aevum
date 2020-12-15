@@ -895,8 +895,8 @@ blockquote {
   padding-top: 160px;
   padding-bottom: 40px;
   /* background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#{{site.data.colors.footer-bg-color}})); */
-  background-image: -webkit-linear-gradient(bottom, #{{site.data.colors.footer-bg-color}}, white);
-  background-image: linear-gradient(180deg, transparent, #{{site.data.colors.footer-bg-color}});
+  /* background-image: -webkit-linear-gradient(bottom, #{{site.data.colors.footer-bg-color}}, white);
+  background-image: linear-gradient(180deg, transparent, #{{site.data.colors.footer-bg-color}}); */
 }
 
 .section.section--full-width {
