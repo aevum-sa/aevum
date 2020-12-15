@@ -1970,6 +1970,16 @@ blockquote {
     flex-direction: row;
   }
 
+  .blur {  
+    backdrop-filter: blur(16px);
+  }
+  .nav-menu-center.blur {  
+    backdrop-filter: blur(16px);
+  }
+  .navbar.blur {  
+    backdrop-filter: blur(16px);
+  }
+
   .navbar.blur {
     background-color: #fff;
   }
