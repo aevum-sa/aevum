@@ -26,8 +26,10 @@ en:
       url: wholesale/metals
   - name: Diamond&nbsp;Grading
     url: grading
+    dropdown-items: 
   - name: Diamond 4 C<span class="lowercase-span">s</span>
     url: diamond-4cs
+    dropdown-items: 
 el:
   lang-switcher: EN/EL
   center-nav-items:
@@ -55,7 +57,7 @@ el:
       url: wholesale/metals
   - name: Diamond&nbsp;Grading
     url: grading
-    dropdown-items: []
+    dropdown-items: 
   - name: Diamond 4 C<span class="lowercase-span">s</span>
     url: diamond-4cs
-    dropdown-items: []
+    dropdown-items: 
