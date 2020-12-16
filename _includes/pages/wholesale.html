@@ -13,10 +13,12 @@
     </div>
   </div>
   
-  {% if data.page.title].text-2 %}
+  {% include ecwid/[page.lang]/[page.ref].html %}
+
+  {% if site.data.[page.ref].[page.lang].text-2 %}
   <div class="section">
     <div class="wholesale-text-container">
-      <p>{{ data.[page.title].text-2}}</p>
+      <p>{{ site.data.[page.ref].[page.lang].text-2 }}</p>
     </div>
   </div>
   {% endif %}
