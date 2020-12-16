@@ -3,5 +3,7 @@ layout: default
 title: Jewelry Wholesale
 ref: jewelry
 lang: en
+image: /images/diamonds.jpeg
 ---
+{% assign lang = site.data.wholesale-gems[page.lang] %}
 {% include pages/wholesale.html %}
