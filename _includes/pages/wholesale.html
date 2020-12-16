@@ -1,6 +1,6 @@
   <div class="section section--top">
     <div class="container">
-      <div class="header-image-container"><img src="{{ page.image }}" loading="lazy" alt="" class="cover-image"></div>
+      <div class="header-image-container"><img src="{{ site.data.[page.ref].image }}" loading="lazy" alt="" class="cover-image"></div>
       <!-- https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg -->
     </div>
   </div>
@@ -17,8 +17,10 @@
 
   {% if site.data.[page.ref].[page.lang].text-2 %}
   <div class="section">
-    <div class="wholesale-text-container">
-      <p>{{ site.data.[page.ref].[page.lang].text-2 }}</p>
+    <div class="container">
+      <div class="wholesale-text-container">
+        <p>{{ site.data.[page.ref].[page.lang].text-2 }}</p>
+      </div>
     </div>
   </div>
   {% endif %}
