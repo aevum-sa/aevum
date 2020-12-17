@@ -2,6 +2,16 @@
 label: X-DO NOT USE - Diamond Grading
 hide_body: true
 fields:
+- name: image-1
+  type: file
+  config:
+    maxSize: 64
+  label: Image 1
+- name: image-2
+  type: file
+  config:
+    maxSize: 64
+  label: Image 2
 - type: field_group
   name: en
   fields:
