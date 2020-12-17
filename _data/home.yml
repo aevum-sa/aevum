@@ -28,8 +28,8 @@ el:
     title: wholesale
     buttons:
     - name: Diamonds
-      url: ''
+      url: 'gemstones' # without the `/wholesale/` part, just the page ref
     - name: Jewelry
-      url: ''
+      url: 'jewelry/'
     - name: Precious Metals
-      url: ''
+      url: 'metals'
