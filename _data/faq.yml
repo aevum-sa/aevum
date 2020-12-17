@@ -10,16 +10,11 @@ en:
       and delivery of your order. In case you have any other question, don’t hesitate
       to call us; we’re always ready to help.
   - question: When will I receive my order?
-    answer: 'Σημαντικός παράγοντας για τον καθορισμό χρονικής παράδοσης της παραγγελίας
-      εκτός από την περιοχή στην οποία αποστέλλεται είναι και αν το κόσμημα είναι
-      άμεσα διαθέσιμο ή αν είναι κατόπιν παραγγελίας.<br>Εντός Ελλάδας (Άμεσα Διαθέσιμο):
-      1-3 Εργάσιμες Ημέρες<br>Εντός Ελλάδας (Κατόπιν Παραγγελίας): 3-5 Εργάσιμες Ημέρες<br>Εκτός
-      Ελλάδας (Άμεσα Διαθέσιμο): 3-5 Εργάσιμες Ημέρες <br>Εκτός Ελλάδος (Κατόπιν Παραγγελίας):
-      6-9 Εργάσιμες Ημέρες<br><br>The biggest factor affecting delivery times is whether
-      of not the jewel is in stock at the time of your order.<br>Within Greece (item
-      in stock): 1–3 working days<br>Within Greece (preorder): 3–5 working days<br>Other
-      countries (item in stock): 3–5 working days<br>Other countries (preorder): 6–9
-      working days<br>'
+    answer: 'The biggest factor affecting delivery times is whether of not the jewel
+      is in stock at the time of your order.<br><strong>Within Greece (item in stock)</strong>:
+      1–3 working days<br><strong>Within Greece (preorder)</strong>: 3–5 working days<br><strong>Other
+      countries (item in stock)</strong>: 3–5 working days<br><strong>Other countries
+      (preorder)</strong>: 6–9 working days<br>'
   - question: What should I do in case I don’t receive an order confirmation email?
     answer: In case you don’t receive a confirmation email right after placing your
       order, please check whether you entered the correct email address. If yes, then
@@ -39,10 +34,10 @@ en:
   - question: Is it possible to get a refund?
     answer: We do not currently issue redunds.
   - question: What happens if I can’t pick my order up from the store after all?
-    answer: Σε περίπτωση που δεν μπορείτε να παραλάβετε ο ίδιος την παραγγελία θα
-      πρέπει να μας ενημερώσετε είτε τηλεφωνικά, είτε με email δίνοντάς μας τα στοιχεία
-      του ατόμου που θα παραλάβει, για την ασφαλή παράδοση της παραγγελίας και προς
-      αποφυγή λαθών.
+    answer: In case you cannot come and pick up the order yourself, you must inform
+      us by either calling or emailing us. Make sure to mention to give us the name
+      and contact information of the person who’ll pick the order up in your place,
+      to ensure safe delivery without mistakes.
   - question: Is it possible to return an order?
     answer: You cannot return your order.
   - question: Can you ship to areas outside of Greece?
