@@ -918,8 +918,8 @@ blockquote {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(38%, hsla(0, 0%, 100%, 0)), to(#fff)), url('../images/hero-image.png');
-  background-image: linear-gradient(0deg, hsla(0, 0%, 100%, 0) 38%, #fff), url('../images/hero-image.png');
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(38%, hsla(0, 0%, 100%, 0)), to(#fff)), url('/images/hero-image.jpg');
+  background-image: linear-gradient(0deg, hsla(0, 0%, 100%, 0) 38%, #fff), url('/images/hero-image.jpg');
   background-position: 0px 0px, 0% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
