@@ -76,7 +76,16 @@
       </div>
       <div class="footer-bottom line-blank">
         <div class="footer-wrapper">
-          <div><img src="/images/visa.png" loading="lazy" alt="" class="payment-method-image"><img src="/images/mastercard.png" loading="lazy" alt="" class="payment-method-image"><img src="/images/paypal.png" loading="lazy" alt="" class="payment-method-image"></div>
+          <div>
+            {% for icon in site.data.footer.payment-icons %}
+            <img src="/{{icon.image-url}}" loading="lazy" alt="" class="payment-method-image">
+            {% endfor %}
+
+            <img src="/images/visa.png" loading="lazy" alt="" class="payment-method-image">
+            <img src="/images/mastercard.png" loading="lazy" alt="" class="payment-method-image">
+            <img src="/images/paypal.png" loading="lazy" alt="" class="payment-method-image">
+          
+          </div>
         </div>
         <div class="footer-wrapper">
           <div>
