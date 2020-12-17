@@ -16,8 +16,8 @@ body {
   background-color: #fff;
   font-family: Manrope, sans-serif;
   color: #{{site.data.colors.text-color}};
-  font-size: 15px;
-  line-height: 1.3em;
+  font-size: 16px;
+  line-height: 1.75em;
 }
 
 h1 {
@@ -75,8 +75,7 @@ h6 {
 
 p {
   margin-bottom: 10px;
-  font-size: 1em;
-  line-height: 1.6em;
+  font-size: 1rem;
 }
 
 a {
@@ -100,7 +99,7 @@ ol {
 }
 
 li {
-  margin-bottom: 16px;
+  margin-bottom: 0.8rem;
 }
 
 em {
@@ -844,6 +843,8 @@ blockquote {
   max-width: 680px;
   padding-right: 10px;
   padding-left: 10px;
+  line-height: 1.75;
+  font-size: 1.1rem;
 }
 
 .container.article-container img {
