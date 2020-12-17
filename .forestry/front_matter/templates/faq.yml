@@ -1,0 +1,38 @@
+---
+label: FAQ
+hide_body: true
+fields:
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: faqs
+    label: faqs
+    fields:
+    - type: text
+      name: question
+      label: question
+    - type: text
+      name: answer
+      label: answer
+- type: field_group
+  name: el
+  label: el
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: faqs
+    label: faqs
+    fields:
+    - type: text
+      name: question
+      label: question
+    - type: text
+      name: answer
+      label: answer
