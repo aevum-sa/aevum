@@ -847,7 +847,8 @@ blockquote {
 }
 
 .container.article-container img {
-  margin: auto;
+  margin: 2rem auto 2rem auto;
+  display: block;
 }
 
 .container.container--full-width {
