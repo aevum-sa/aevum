@@ -23,7 +23,7 @@
           <div class="flex-wrapper flex-wrapper--justify-center wholesale-buttons">
 
             {% for button in site.data.home[page.lang].wholesale.buttons %}
-              <a href="/wholesale/{{ button.url }}" class="button button--padding w-button">{{ button.name }}</a>
+              <a href="/{{page.lang}}/wholesale/{{ button.url }}" class="button button--padding w-button">{{ button.name }}</a>
             {% endfor %}
 
           </div>
