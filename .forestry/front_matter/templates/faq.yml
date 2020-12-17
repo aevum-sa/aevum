@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - type: field_group
   name: en
-  label: en
+  label: English
   fields:
   - type: text
     name: title
@@ -16,12 +16,18 @@ fields:
     - type: text
       name: question
       label: question
-    - type: text
+    - type: textarea
       name: answer
       label: answer
+      config:
+        wysiwyg: true
+        schema:
+          format: html
+
+Example
 - type: field_group
   name: el
-  label: el
+  label: Greek
   fields:
   - type: text
     name: title
@@ -33,6 +39,10 @@ fields:
     - type: text
       name: question
       label: question
-    - type: text
+    - type: textarea
       name: answer
       label: answer
+      config:
+        wysiwyg: true
+        schema:
+          format: html
