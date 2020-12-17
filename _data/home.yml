@@ -11,11 +11,11 @@ en:
     title: wholesale
     buttons:
     - name: Diamonds
-      url: ''
+      url: 'gemstones'
     - name: Jewelry
-      url: ''
+      url: 'jewelry'
     - name: Precious Metals
-      url: ''
+      url: 'metals'
 el:
   hero-buttons:
   - name: Shop Online
