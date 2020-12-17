@@ -31,12 +31,11 @@ en:
     answer: Shipping costs for addresses in Greece are 3 € — regardless of the exact
       delivery area — and 14 € for addresses outside of Greece.
   - question: How can I pick my order up from the store?
-    answer: Κατά την ολοκλήρωση της παραγγελίας πατήστε "Παραλαβή" αντί για "Αποστολή",
-      αυτόματα θα λάβετε ένα σχετικό email με την επιβεβαίωση της παραγγελίας και
-      στην συνέχεια ένα δεύτερο email το οποίο θα σας ενημερώνει ότι η παραγγελία
-      σας είναι έτοιμη στο κατάστημά μας.  Με το σχετικό email της παραγγελιάς μπορείτε
-      να έρθετε να παραλάβετε την παραγγελία σας εντός του ωραρίου που αναγράφεται
-      στη σελίδα μας.
+    answer: During check-out select ”Pick up” rather than “Shipping.” You’ll automatically
+      receive an email confirming your order. Some time later you’ll get a second
+      email notifying you that your order is ready for you to pick up from our store.
+      You can come and pick it up anytime during our business hours (see end of this
+      page) by showing us the confirmation email.
   - question: Is it possible to get a refund?
     answer: We do not currently issue redunds.
   - question: What happens if I can’t pick my order up from the store after all?
