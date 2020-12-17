@@ -9,7 +9,7 @@ en:
     email: YOU EMAIL ADDRESS (REQUIRED)
     phone: PHONE NUMBER (OPTIONAL)
     message: YOUR MESSAGE (REQUIRED)
-    button-text: Submit
+    button-text: Send message
     success: "<strong>We got your message</strong> and will get back to you within
       a business day."
     error: "<strong>Something went wrong!</strong> Please check your internet connection.
@@ -22,7 +22,7 @@ el:
     email: Η διεύθυνση e-mail σας (απαιτείται)
     phone: Ο αριθμός τηλεφώνου σας (προαιρετικό)
     message: Το μήνυμά σας (απαιτείται)
-    button-text: Αποστολή
+    button-text: Αποστολή μηνύματος
     success: "<strong> λάβαμε το μήνυμα σας</strong> και θα σας απαντήσουμε μέσα σε
       μία εργάσιμη μέρα."
     error: "<strong>Το μήνυμα σας δεν στάλθηκε!</strong> Παρακαλούμε ελέγξτε την σύνδεση
