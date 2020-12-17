@@ -15,6 +15,7 @@ opening-hours:
     – 14:00"
   el: "<strong>Δευ — Παρ</strong>: 09:00 – 17:00<br><strong>Σάββατο</strong>: 10:00
     – 14:00"
+hero-image: /images/hero-image.jpg
 markdown: kramdown
 permalink: pretty
 exclude:
