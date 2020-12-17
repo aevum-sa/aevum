@@ -74,5 +74,10 @@ fields:
         label: Button URL (link)
       hidden: false
   label: Greek
+- name: wholesale-bg-image
+  type: file
+  config:
+    maxSize: 64
+  label: Background Image - Wholesale Section
 pages:
 - _data/home.yml
