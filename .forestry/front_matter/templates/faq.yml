@@ -44,3 +44,5 @@ fields:
         wysiwyg: true
         schema:
           format: html
+pages:
+- _data/faq.yml
