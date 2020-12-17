@@ -1,8 +1,11 @@
 ---
 payment-icons:
   - image-url: /images/visa.png
+    alt: Visa
   - image-url: /images/mastercard.png
+    alt: MasterCard
   - image-url: /images/paypal.png
+    alt: PayPal
 en:
   col-2-1-title: Company
   col-2-1-links:
