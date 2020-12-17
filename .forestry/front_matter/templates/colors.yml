@@ -5,6 +5,9 @@ fields:
 - type: text
   name: accent-color
   label: Accent Color
+  description: HEX code without the “#”<br>Use <a href="https://www.color-hex.com/"
+    title="color-hex.com" target="_blank">https://www.color-hex.com/</a> to pick a
+    color and get its code!
 - type: text
   name: text-color
   label: Text Color
