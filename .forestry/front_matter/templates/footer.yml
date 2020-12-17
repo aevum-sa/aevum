@@ -158,5 +158,26 @@ fields:
       name: placeholder
       label: Email Placeholder
       description: For example “Your email”
+- name: payment-icons
+  type: field_group_list
+  fields:
+  - name: image-url
+    type: file
+    config:
+      maxSize: 64
+    label: Image/Icon
+  - name: alt
+    type: text
+    config:
+      required: false
+    label: Payment Method Name
+    description: For example “Visa”<br>This is mostly in case the image doesn’t load
+      or in case the visitor is using a screen-reader (software that reads the website
+      content out loud).
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Payment Method Icons
 pages:
 - _data/footer.yml
