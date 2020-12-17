@@ -2452,8 +2452,8 @@ blockquote {
   }
 
   .section.section--hero.grading-cta {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), -webkit-gradient(linear, left top, left bottom, color-stop(72%, transparent), to(#fff)), -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(29%, hsla(0, 0%, 100%, 0))), url('/images/grading-cta.jpg');
-    background-image: linear-gradient(180deg, transparent, transparent), linear-gradient(180deg, transparent 72%, #fff), linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 29%), url('../images/grading-cta.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), -webkit-gradient(linear, left top, left bottom, color-stop(72%, transparent), to(#fff)), -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(29%, hsla(0, 0%, 100%, 0))), url('{{site.data.cta.image}}');
+    background-image: linear-gradient(180deg, transparent, transparent), linear-gradient(180deg, transparent 72%, #fff), linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 29%), url('{{site.data.cta.image}}');
     background-position: 0px 0px, 0px 0px, 0px 0px, 55% 0%;
   }
 
