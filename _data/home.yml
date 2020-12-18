@@ -19,18 +19,18 @@ en:
       url: 'metals'
 el:
   hero-buttons:
-  - name: Shop Online
+  - name: Αγοράστε Online
     url: store
     class: button button--filled w-button
   - name: Diamond 4Cs
     url: diamond-4cs
     class: button w-button
-  wholesale:
+  wholesale: 
     title: wholesale
-    buttons:
-    - name: Diamonds
+    buttons: 
+    - name: Διαμάντια
       url: 'gemstones' # without the `/wholesale/` part, just the page ref
-    - name: Jewelry
+    - name: Κοσμήματα
       url: 'jewelry/'
-    - name: Precious Metals
+    - name: Πολύτιμα Μέταλλα
       url: 'metals'

@@ -33,19 +33,19 @@ en:
 el:
   lang-switcher: EN/EL
   center-nav-items:
-  - name: Store
+  - name: Κατάστημα
     dropdown-items:
     - name: Όλα
       url: "/store"
-    - name: Rings
+    - name: Δαχτυλίδια
       url: ''
-    - name: Earrings
+    - name: Σκουλαρίκια
       url: ''
-    - name: Bracelets
+    - name: Βραχιόλια
       url: ''
-    - name: Necklaces
+    - name: Κολιέ
       url: ''
-    - name: Crosses
+    - name: Σταυροί
       url: ''
   - name: Χονδρικη
     dropdown-items:
@@ -53,9 +53,9 @@ el:
       url: wholesale/jewelry
     - name: Διαμάντια
       url: wholesale/gemstones
-    - name: Πολύτιμα μέταλλα
+    - name: Πολύτιμα Μέταλλα
       url: wholesale/metals
-  - name: Diamond&nbsp;Grading
+  - name: Αξιολόγηση&nbsp;Διαμαντιών
     url: grading
     dropdown-items: 
   - name: Diamond 4 C<span class="lowercase-span">s</span>
