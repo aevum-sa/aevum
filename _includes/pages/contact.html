@@ -31,15 +31,15 @@
         <div class="form-block w-form">
 
           <form data-name="Contact Form" id="Contact-Form" name="Contact-Form" netlify>
-            <label lang="{{page.lang}}" class="label" for="name">{{ site.data.contact.[page.lang].contact-form.name }}</label>
-            <input class="text-field contact-form-field short-field w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="John Smith" required="" type="text">
+            <label class="label" for="name">{{ site.data.contact.[page.lang].contact-form.name }}</label>
+            <input class="text-field contact-form-field short-field w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="" required="" type="text">
             <label class="label" for="Email-4">{{ site.data.contact.[page.lang].contact-form.email }}</label>
-            <input class="text-field contact-form-field w-input" data-name="Email" id="Email-4" maxlength="256" name="Email" placeholder="you@email.com" required="" type="email">
+            <input class="text-field contact-form-field w-input" data-name="Email" id="Email-4" maxlength="256" name="Email" placeholder="" required="" type="email">
             <label class="label" for="Phone-Number">{{ site.data.contact.[page.lang].contact-form.phone }}</label>
-            <input class="text-field contact-form-field w-input" data-name="Phone Number" id="Phone-Number" maxlength="256" name="Phone-Number" placeholder="+30 6900000000" type="tel">
+            <input class="text-field contact-form-field w-input" data-name="Phone Number" id="Phone-Number" maxlength="256" name="Phone-Number" placeholder="" type="tel">
             <label class="label" for="Message">{{ site.data.contact.[page.lang].contact-form.message }}</label> 
           
-            <textarea class="text-field contact-form-field message-field w-input" data-name="Message" id="Message" maxlength="5000" name="Message" placeholder="Write your message here and click “Submit”" required=""></textarea>
+            <textarea class="text-field contact-form-field message-field w-input" data-name="Message" id="Message" maxlength="5000" name="Message" placeholder="" required=""></textarea>
             
             <input class="button w-button" data-wait="Please wait..." type="submit" value="{{ site.data.contact.[page.lang].contact-form.button-text }}">
           </form>
