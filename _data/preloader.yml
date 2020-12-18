@@ -1,9 +1,9 @@
 en:
   loading-messages:
     - name: Getting all products ready for you
-    - name: This will only take a few moments
+    - name: If the page doesn’t load after a few moments, please make sure that JavaScript support is on in your browser settings.
 
 el:
   loading-messages:
     - name: Ετοιμάζουμε όλα τα προϊόντα
-    - name: Αυτό θα πάρει μόνο λίγα δευτερόλεπτα
+    - name: Εάν η σελίδα δεν φορτώσει μετά από μερικά δευτερόλεπτα, παρακαλούμε σιγουρευτείτε πως το JavaScript είναι ενεργό στις ρυθμίσεις του προγράμματος πλοήγησης σας (π.χ. Chrome, Firefox κτλ.)
