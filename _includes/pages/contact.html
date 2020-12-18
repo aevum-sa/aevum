@@ -31,7 +31,7 @@
         <div class="form-block w-form">
 
           <form data-name="Contact Form" id="Contact-Form" name="Contact-Form" netlify>
-            <label class="label" for="name">{{ site.data.contact.[page.lang].contact-form.name }}</label>
+            <label lang="{{page.lang}}" class="label" for="name">{{ site.data.contact.[page.lang].contact-form.name }}</label>
             <input class="text-field contact-form-field short-field w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="John Smith" required="" type="text">
             <label class="label" for="Email-4">{{ site.data.contact.[page.lang].contact-form.email }}</label>
             <input class="text-field contact-form-field w-input" data-name="Email" id="Email-4" maxlength="256" name="Email" placeholder="you@email.com" required="" type="email">
