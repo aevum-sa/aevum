@@ -52,7 +52,8 @@ Google may use the Data collected to contextualize and personalize the ads of it
 In order to allow Visitors to purchase goods from us, we use the service provided by Ecwid, Inc., 687 S. Coast Highway 101, Encinitas, California 92024, USA, (hereafter “Ecwid”). Ecwid sets cookies on the Visitors’ devices in order to retain the products they put in their shopping carts. Unless a Visitor chooses to identify themselves to Us, and by extension Ecwid, either by opening an account, or entering their email address at checkout, they remain anonymous to Ecwid.
 
 * **Personal Data collected:** Cookies; Usage Data.
-  * [Privacy Policy](https://www.ecwid.com/eu-privacy-policy) | Contact: privacy@ecwid.com, legal@ecwid.com
+  * [Privacy Policy](https://www.ecwid.com/eu-privacy-policy)
+  * Contact: privacy@ecwid.com, legal@ecwid.com
 * **Place of processing:** United States
 
 ## Retention time
