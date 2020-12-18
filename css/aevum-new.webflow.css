@@ -1804,7 +1804,7 @@ hr {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #f5f0e7;
+  background-color: #f1f1f1;
 }
 
 .preloader-animation {
@@ -1817,6 +1817,7 @@ hr {
   opacity: 0.28;
   font-size: 1em;
   font-weight: 700;
+  max-width: 60%;
 }
 
 .h2-display {
