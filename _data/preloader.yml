@@ -1,9 +1,9 @@
 en:
   loading-messages:
-    - name: Preparing our collection
+    - name: Getting all products ready for you
     - name: This will only take a few moments
 
 el:
   loading-messages:
-    - name: Preparing our collection
-    - name: This will only take a few moments
+    - name: Ετοιμάζουμε όλα τα προϊόντα για εσάς
+    - name: Αυτό θα πάρει μόνο λίγες στιγμές

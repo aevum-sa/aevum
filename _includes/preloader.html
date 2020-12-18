@@ -1,6 +1,7 @@
   <div data-w-id="0497e101-39b0-e291-e6ea-884d572a4341" class="preloader"><img src="/images/Aevum-Logo-GOLD.svg" alt="" class="brand brand-small">
-    <div data-w-id="9ccc787d-9068-615a-aa51-97e77fcfd223" data-animation-type="lottie" data-src="/documents/lottie-loading-8.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2.125" data-duration="0" class="preloader-animation"></div>
-	{% for message in site.data.preloader.[page.lang].loading-messages %}
-		<div class="loading">{{message.name}}</div>
-	{% endfor %}
+    <div data-w-id="9ccc787d-9068-615a-aa51-97e77fcfd223" data-animation-type="lottie" data-src="/documents/29521-loading.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2.125" data-duration="0" class="preloader-animation"></div>
+    
+    {% for message in site.data.preloader.[page.lang].loading-messages %}
+	  	<div class="loading">{{message.name}}</div>
+    {% endfor %}
   </div>
