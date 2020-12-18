@@ -33,7 +33,7 @@ en:
 el:
   lang-switcher: EN/EL
   center-nav-items:
-  - name: Κατάστημα
+  - name: Καταστημα
     dropdown-items:
     - name: Όλα
       url: "/store"
@@ -49,13 +49,13 @@ el:
       url: ''
   - name: Χονδρικη
     dropdown-items:
-    - name: Κοσμήματα
+    - name: Κοσμηματα
       url: wholesale/jewelry
-    - name: Διαμάντια
+    - name: Διαμαντια
       url: wholesale/gemstones
-    - name: Πολύτιμα Μέταλλα
+    - name: Πολυτιμα Μεταλλα
       url: wholesale/metals
-  - name: Αξιολόγηση&nbsp;Διαμαντιών
+  - name: Αξιολογηση&nbsp;Διαμαντιων
     url: grading
     dropdown-items: 
   - name: Diamond 4 C<span class="lowercase-span">s</span>
