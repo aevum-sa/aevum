@@ -61,12 +61,6 @@ sections:
 - type: document
   path: _data/404.yml
   label: 404 Error
-- type: directory
-  path: _data/text-pages
-  label: All Text Pages
-  create: all
-  match: "*.md"
-  new_doc_ext: md
 - type: heading
   label: Wholesale Pages
 - type: document
