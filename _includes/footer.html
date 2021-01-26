@@ -34,7 +34,7 @@
             <div class="footer-title">{{ site.data.footer[page.lang].col-2-2-title }}</div>
 
             {% for link in site.data.footer[page.lang].col-2-2-links %}
-            <a href="/{{page.lang}}/{{ link.url }}" class="link-w-icon w-inline-block"><img src="/{{ link.image }}" loading="lazy" alt="" class="link-icon link-icon--left">
+            <a href="/{{page.lang}}/{{ link.url }}" class="link-w-icon w-inline-block"><img src="/{{ link.image }}" alt="" class="link-icon link-icon--left">
               <div class="footer-link">{{ link.name }}</div>
             </a>
             {% endfor %}

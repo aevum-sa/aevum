@@ -1,0 +1,187 @@
+/* This is just for easy editing. To apply, paste in Ecwid > Design > Edit Theme */
+
+.option-surcharge.ec-text-muted {
+	visibility: hidden;
+}
+/* Account pop-up, https://aevum-sa.com/en/#!/~/accountSettings */
+/* Provided by Ecwid support team */
+
+.ecwid-productBrowser-OrdersPage .ecwid-LoginBox .ecwid-LoginForm-links {
+    margin-right: 50px;
+}
+.ecwid-productBrowser-OrdersPage .ecwid-LoginBox .ecwid-btn--sign_in {
+    transform: scale(1.5);
+}
+
+.ecwid {
+    font-size: 1em;
+}
+
+.ecwid .ecwid-btn, .ecwid-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 1.1em;
+    border-radius: 0px;
+}
+
+.div.ecwid-popup {
+    border-radius: 0;
+}
+
+div.ecwid-ProductBrowserPopup>div {
+    padding: 30px;
+    border-radius: 16px;
+    margin: 20px auto;
+    background: #fbfbfb;
+    height: auto;
+}
+   
+table.ecwid-productBrowser-auth-mini .ecwid-productBrowser-auth a.ecwid-productBrowser-auth-signInLink {
+    display: flex;
+}
+
+/* Wrote myself */
+
+.div.ecwid-ProductBrowserPopup .ecwid-ProductBrowserPopup-content {
+    max-width: 80vw
+}
+
+div.ecwid-ProductBrowser-auth-anonim {
+    margin: 0;
+}
+
+table.ecwid-productBrowser-auth-mini .ecwid-productBrowser-auth a.ecwid-productBrowser-auth-signInLink {
+    display: flex;
+    justify-content: center;
+}
+
+.ecwid-productBrowser-head, div.ecwid-productBrowser-head, .ecwid div.ecwid-productBrowser-head {
+    font-family: Lack, sans-serif;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.ecwid a, .gwt-Anchor, .ecwid-productBrowser-auth a.ecwid-productBrowser-auth-signInLink {
+    color: #5c420b;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.gwt-TextBox, input.gwt-TextBox, .gwt-PasswordTextBox, input.gwt-PasswordTextBox, .ecwid-fieldWrapper input{
+    border: 1px solid #000;
+    background-color: #fff;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 12px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.ecwid-popup-headLabel {
+  font-family: Lack, sans-serif;
+  font-size: 1.4em;
+  line-height: 1.3em;
+  font-weight: 700;
+}
+
+div.ecwid-login-popup div.ecwid-popup-headLabel {
+    max-width: 100%;
+    padding: 0 50px 20px 50px;
+}
+
+.ecwid-form, div.ecwid-form, div.ecwid-LoginForm, .ecwid-LoginForm {
+    padding: 0 24px;
+    border-radius: 0px;
+    background-color: #f0ece1;
+}
+
+table.ecwid-LoginBox, .ecwid-LoginBox, {
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.ecwid-fieldLabel {
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    color: #303030;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.ecwid-form {
+    background-color: #f0ece1;
+}
+.ecwid-LoginForm-links table, div.ecwid-LoginForm-links table {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.ecwid-form button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000;
+    background-color: #fff;
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+button.ecwid-popup-closeButton {
+    background: #000 url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 11 11'%3E%3Cpath fill='%23fff' d='M9.83 0L11 1.205 6.712 5.512l4.263 4.283L9.807 11 5.494 6.73 1.254 11 .024 9.795 4.29 5.512 0 1.23 1.218 0l4.3 4.32L9.83 0z'/%3E%3C/svg%3E") no-repeat center center;
+    width: 32px;
+    height: 32px;
+    top: 20px;
+    right: 20px;
+}
+
+.ec-store .form-control--secondary .form-control__button {
+    border-color: #000;
+}
+
+.ec-size .ec-store .form-control__button {
+    padding: 1em 2em;
+    border-radius: 0;
+}
+
+/* Sign-in PAGE */
+
+.ecwid-productBrowser-OrdersPage .ecwid-LoginBox .ecwid-btn--sign_in {
+    transform: none; /* was transform: scale(1.5); for SOME reason so it was HUUGE*/
+}
+
+/* Sign-up pop-up */
+div.ecwid-register-popup.ecwid-responsive-popup div.ecwid-form {
+    text-align: left;
+    max-width: 620px;
+}
+
+div.ecwid-popup table.ecwid-popup-linkBlock {
+    margin: 0;
+}
+
+/* Log in pop-up */
+/* had max width 240px, i cant */
+div.ecwid-login-popup.ecwid-compact-popup div.ecwid-form, div.ecwid-register-popup.ecwid-compact-popup div.ecwid-form {
+    padding: 32px;   
+}
+
+div.ecwid-login-popup.ecwid-responsive-popup div.ecwid-form {
+    text-align: left;
+    max-width: 620px;
+}
+
+/* Password reset PAGE - https://aevum-sa.com/en/store/#!/~/resetPassword */
+/* TODO */
