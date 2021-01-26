@@ -23,7 +23,7 @@ fields:
   label: Reference
   description: A reference name for the page. Required for the multilingual functionality
     to work. Two pages with a different language but the same reference will be understood
-    by the system to be equivalent in the each language.
+    by the system to be equivalent.
 - name: permalink
   type: text
   config:
