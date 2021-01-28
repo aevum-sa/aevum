@@ -930,8 +930,8 @@ hr {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(38%, hsla(0, 0%, 100%, 0)), to(#fff)), url('{{site.hero-image}}');
-  background-image: linear-gradient(0deg, hsla(0, 0%, 100%, 0) 38%, #fff), url('{{site.hero-image}}');
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(38%, hsla(0, 0%, 100%, 0)), to(#fff)), url('{{site.data.home.hero-image}}');
+  background-image: linear-gradient(0deg, hsla(0, 0%, 100%, 0) 38%, #fff), url('{{site.data.home.hero-image}}');
   background-position: 0px 0px, 0% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;

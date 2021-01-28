@@ -26,9 +26,16 @@
     border-radius: 0px;
 }
 
-.div.ecwid-popup {
+.div.ecwid-popup, .ecwid-popup, ecwid-popup ecwid-ProductBrowserPopup ecwid ecwid-no-touch ecwid-supports-cssanimations {
     border-radius: 0;
-}
+    margin: 0;
+    left: 0px;
+    top: 10px;
+    height: 300vh;
+    z-index: 1000001;
+    position: fixed; /* was absolute so the page was scrollable. But fixed means that the popup content is not scrollable either (TODO) */
+    overflow: visible;
+}  
 
 div.ecwid-ProductBrowserPopup>div {
     padding: 30px;
@@ -168,7 +175,7 @@ div.ecwid-register-popup.ecwid-responsive-popup div.ecwid-form {
     max-width: 620px;
 }
 
-div.ecwid-popup table.ecwid-popup-linkBlock {
+table.ecwid-popup-linkBlock {
     margin: 0;
 }
 
@@ -183,5 +190,29 @@ div.ecwid-login-popup.ecwid-responsive-popup div.ecwid-form {
     max-width: 620px;
 }
 
+/* Wrong password popup */
+div.ecwid-MessageBox {
+    border:solid 2px #c45458;
+    background-color:#fbeded;
+    border-radius:20px;
+    padding: 40px 0 20px 0;
+   }
+   
+.ecsp,
+.ecwid,
+.ecwid-minicart,
+.ecwid-SearchPanel,
+.dateBoxPopup,
+.gwt-PopupPanel {
+    font-family: Manrope, sans-serif;;
+   }
+
+/* @media@media (min-width: 640px) { */
+    div.ecwid-MessageBox-msg, .ecwid-MessageBox-msg{
+     padding:0 60px 0 20px;
+    }  
+   /* } */
+   
+   
 /* Password reset PAGE - https://aevum-sa.com/en/store/#!/~/resetPassword */
 /* TODO */
