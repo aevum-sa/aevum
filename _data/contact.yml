@@ -3,6 +3,7 @@ image: "/images/contact-gold-01.jpg"
 map-image: "/images/aevum-map-pin.png"
 map-image-mobile: "/images/aevum-map-pin-mobile.png"
 en:
+  page-title: Contact
   contact-form:
     title: Contact Form
     name: YOUR NAME (REQUIRED)
@@ -16,6 +17,7 @@ en:
       You can also send us an email or call us instead. We apologize for the potential
       inconvenience."
 el:
+  page-title: Επικοινωνία
   contact-form:
     title: Φόρμα επικοινωνίας
     name: Το όνομά σας (απαιτείται)

@@ -2,6 +2,7 @@
 hero-image: /images/hero-image.jpg
 wholesale-bg-image: /images/jewelry-grids.png
 en:
+  - page-title: Diamond Jewelry
   hero-buttons:
   - name: Shop Online
     url: store
@@ -19,6 +20,7 @@ en:
     - name: Precious Metals
       url: 'metals'
 el:
+  - page-title: Διαμαντένια Κοσμήματα
   hero-buttons:
   - name: Αγοράστε Online
     url: store
